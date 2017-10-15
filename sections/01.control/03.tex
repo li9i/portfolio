@@ -1,0 +1,72 @@
+\subsection{Tracking the circumference of a circle with a RC car}
+
+Context: Automatic Control Project Course EL2425, Royal Institute of
+Technology (KTH), Stockholm, Sweden.\\
+
+Problem statement: suppose a remotely controlled vehicle chassis of Ackermann
+steering that can be localized in space, equipped with a computing unit. Given a
+circular path, the goal is for the vehicle to navigate the path as close as
+possible. The solution was sought after using Model Predictive Control with
+variable reference poses within the horizon of the optimization problem.
+Figures \ref{fig:circular_mpc_trajectory_transient} and
+\ref{fig:circular_mpc_trajectory_ss} show the trajectory of the vehicle from
+a top view during the transient phase and the steady-state phase respectively.
+Accordingly, figures \ref{fig:circular_mpc_error_transient} and
+\ref{fig:circular_mpc_error_ss} show the respective errors in each phase as
+a function of time. These figures refer to actual experiments, not simulations.
+Notably, the steady-state error does not exceed $3.5$cm, that is, the center
+of gravity of the vehicle does not diverge more than $3.5$cm from the reference
+circular trajectory.
+
+
+\noindent\makebox[\linewidth][c]{%
+\begin{minipage}{\linewidth}
+  \begin{minipage}{0.45\linewidth}
+    \begin{figure}[H]
+      \scalebox{0.6}{\input{images/circumference_trajectory_transient.tex}}
+      \caption{Reference trajectory (red) and trajectory of the vehicle (blue),
+        in the transient phase.}
+      \label{fig:circular_mpc_trajectory_transient}
+    \end{figure}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.45\linewidth}
+    \begin{figure}[H]
+      \scalebox{0.6}{\input{images/circumference_error_transient.tex}}
+      \caption{The discrepancy in distance between the trajectory of the vehicle
+        and the reference trajectory in the transient phase.}
+      \label{fig:circular_mpc_error_transient}
+    \end{figure}
+  \end{minipage}
+\end{minipage}
+}\\
+
+\noindent\makebox[\linewidth][c]{%
+\begin{minipage}{\linewidth}
+  \begin{minipage}{0.45\linewidth}
+    \begin{figure}[H]
+      \scalebox{0.6}{\input{images/circumference_trajectory_ss.tex}}
+      \caption{Reference trajectory (red) and trajectory of the vehicle (blue),
+        in steady state.}
+      \label{fig:circular_mpc_trajectory_ss}
+    \end{figure}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.45\linewidth}
+    \begin{figure}[H]
+      \scalebox{0.6}{\input{images/circumference_error_ss.tex}}
+      \caption{The discrepancy in distance between the trajectory of the vehicle
+        and the reference trajectory in steady state.}
+      \label{fig:circular_mpc_error_ss}
+    \end{figure}
+  \end{minipage}
+\end{minipage}
+}\\
+
+
+
+Sample results can be found in the following video sequences:\\
+\url{https://www.youtube.com/watch?v=Vh1huYlyD_8}\\
+\url{https://www.youtube.com/watch?v=937OZez1iN8?t=69}\\
+
+Resources / tools involved: Model Predictive Control, ROS (Linux), Python, git, MATLAB.
