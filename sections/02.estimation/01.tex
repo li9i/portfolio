@@ -1,0 +1,33 @@
+\subsection{How one detects vehicles violating the speed limit when
+all one has is a stationary camera}
+
+Context: Applied Estimation Project EL2320, Royal Institute of Technology (KTH),
+Stockholm, Sweden.\\
+
+Problem statement: suppose a stationary camera overseeing a stretch of road on
+which vehicles travel freely. We would like to identify vehicles travelling at
+a speed larger than a given threshold.
+
+One solution is comprised of two segments: (a) At first, a differentiation
+between what is considered background (the unvaried and vehicle-less road scene)
+and what is considered foreground (the objects ``travelling" on top of the
+background) is in order. Since the data is in video form, we need to track
+the colour of each pixel through time, and therefore perform segmentation via
+Gaussian Mixture Models. (b) After vehicles have been detected, a separate
+Kalman filter (alternatively, a Particle filter) estimates the vector of the
+velocity of each detected vehicle. Given that the camera is stationary,
+information (or even guesstimates) about its placement with respect to the
+road it oversees can establish a correspondence between a vehicle's real (road)
+velocity and represented (image) velocity, so that vehicles above the speed
+limit are identified. Figure \ref{fig:kf_1} shows a frame drawn from a video
+sequence where the position and velocity of two vehicles are being tracked.
+
+\begin{figure}[H]\centering
+  \includegraphics[scale=0.55]{images/kf_1.png}
+  \caption{Two vehicles are successfully detected, with their velocity vector
+    being estimated through time, using one Kalman filter per vehicle.}
+  \label{fig:kf_1}
+\end{figure}
+
+Notions / resources / tools involved: video segmentation, Kalman filter,
+Particle filter, MATLAB.

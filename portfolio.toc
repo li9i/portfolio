@@ -4,5 +4,7 @@
 \contentsline {subsection}{\numberline {1.2}Tracking the centerline of a lane with a RC car}{3}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}Tracking the circumference of a circle with a RC car}{4}{subsection.1.3}
 \contentsline {section}{\numberline {2}Estimation Projects}{5}{section.2}
-\contentsline {section}{\numberline {3}Machine Learning Projects}{5}{section.3}
-\contentsline {section}{\numberline {4}Computer Vision Projects}{5}{section.4}
+\contentsline {subsection}{\numberline {2.1}How one detects vehicles violating the speed limit when all one has is a stationary camera}{5}{subsection.2.1}
+\contentsline {section}{\numberline {3}Machine Learning Projects}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Multi-label classification using Learning Classifier Systems}{6}{subsection.3.1}
+\contentsline {section}{\numberline {4}Computer Vision Projects}{6}{section.4}

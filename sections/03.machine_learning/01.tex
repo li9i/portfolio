@@ -1,0 +1,20 @@
+\subsection{Multi-label classification using Learning Classifier Systems}
+
+Context: Diploma Thesis, Aristotle University of Thessaloniki, Thessaloniki, Greece.\\
+
+Problem statement: suppose a set of annotated data of multiple labels (not
+multiple classes: each instance is simultaneously classified to more than one
+labels). Given this set, we would like to build a classifier which, trained with
+this set, can classify unseen data to multiple labels with the highest accuracy
+possible.
+
+The solution was sought through the framework of Learning Classifier Systems,
+systems that represent data instances with rules of the form
+``antecedents => consequents". Within this frame, rules undergo (a) crossover
+with other rules depending on a measure of their ``quality" (their fitness),
+and (b) mutations indiscriminately during crossover, through time, iteratively.
+The resulting classifier was compared against the state-of-the-art classifiers
+on a number of datasets and its performance was found to be (a) overall the best
+in terms of accuracy, and (b) not statistically significantly better than those
+it was compared against.\\\\
+Notions / resources / tools: Genetic algorithms, Java, git.
