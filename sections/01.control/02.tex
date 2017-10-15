@@ -13,16 +13,17 @@ rotational error, with respect to the middle line of the path. Furthermore, the
 problem can be approached by two ways: through the design of a PID controller,
 which is easier to setup, faster in execution, but potentially difficult to tune,
 and through that of a MPC controller, which requires more work, is slower in
-execution, but is more robust than the PID controller.
+execution, but is more robust than the PID controller. Figure
+\ref{fig:centerline_pid_error} shows the evolution of the one-dimensional
+angular error of the vehicle under control by the PID controller.
 
 \begin{figure}[H]\centering
   \scalebox{0.6}{\input{images/centerline_pid_error.tex}}
   \caption{The angular error of the vehicle controlled via PID control.}
-  \label{fig:}
+  \label{fig:centerline_pid_error}
 \end{figure}
 
-Sample results can be found in the following video sequences:\\
+\noindent Sample results can be found in the following video sequences:\\
 \url{https://www.youtube.com/watch?v=w3Wnw5SLmss}\\
-\url{https://www.youtube.com/watch?v=937OZez1iN8?t=142}\\
-
-Resources / tools involved: PID / MP control, ROS (Linux), Python, git, MATLAB.
+\url{https://www.youtube.com/watch?v=937OZez1iN8?t=142}\\\\
+Notions / resources / tools involved: $\{$PID, Predictive$\}$ Control, ROS (Linux), Python, git, MATLAB.

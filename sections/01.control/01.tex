@@ -11,6 +11,11 @@ are constrained in keeping certain distance bounds from other agents. Given this
 setting and these constraints, the goal is for the whole multi-agent system to
 navigate itself from some initial configuration to a goal configuration and to
 stay there (be stable there), regardless of disturbances affecting the agents.
+
+One solution of this problem involves the design of a robust decentralized model
+predictive control regime for the team of cooperating robot systems. The problem
+involves agents whose dynamics are independent of one-another, and its solution
+couples their constraints as a means of capturing the cooperative behaviour required.
 Figure \ref{fig:d_OFF_res_trajectory_3_2} shows a three-agent system passing
 through a narrow gap between two objects before reaching its intended
 configuration and without violating its specified constraints.
@@ -24,10 +29,7 @@ configuration and without violating its specified constraints.
   \label{fig:d_OFF_res_trajectory_3_2}
 \end{figure}
 
-One solution of this problem involves the design of a robust decentralized model
-predictive control regime for the team of cooperating robot systems. The problem
-involves agents whose dynamics are independent of one-another, and its solution
-couples their constraints as a means of capturing the cooperative behaviour required.
+
 
 In this work, analytical proofs are given to show that, under the proposed
 control regime: (a) Subject to initial feasibility, the optimization solved at
@@ -36,9 +38,5 @@ disturbances affect the agents. (b) Each (sub)system can be stabilized to a
 desired configuration, either asymptotically when uncertainty is absent,
 or within a neighbourhood of it, when uncertainty is present, thus attenuating
 the affecting disturbance. In this context, disturbances are assumed to be
-additive and bounded.
-
-Simulations verify the efficacy of the proposed method over a range of
-different operating environments.\\
-
-Resources / tools involved: Predictive Control, MATLAB, git
+additive and bounded.\\\\
+Notions / resources / tools involved: Predictive Control, ISS stability, MATLAB, git
