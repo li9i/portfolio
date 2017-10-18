@@ -5,17 +5,22 @@ Thessaloniki, Thessaloniki, Greece.\\\\
 \url{http://pandora.ee.auth.gr/}\\
 \url{https://github.com/pandora-auth-ros-pkg}\\
 
+``The RoboCupRescue Robot League is an international league of teams with one
+objective: Develop and demonstrate advanced robotic capabilities for emergency
+responders using annual competitions to evaluate, and teaching camps to
+disseminate, best-in-class robotic solutions."\footnote{\url{http://wiki.robocup.org/Robot_League}}.
 Within the context of the RoboCup Rescue competition, robotic rescuers have to
-be able to locate victims in closed spaces (simulating what is to happen during
-emergency situations) and therefore have to first detect the ``holes" in walls
-behind which the victims are located. The unmanned ground vehicle PANDORA
-uses a RGB and a Depth camera for such purposes. Each of the images of the two
-cameras undergo independent analyses so as to make locating the precise
-outline of holes more probable. Figure \ref{fig:holes} shows the outcome of
-such analyses after cross-referencing RGB-derived holes to Depth-derived holes
-and vice versa, and after further processing. In terms of time, the resulting
-ROS package took around seven months to build; in terms of size it is comprised
-of around 8K lines of code and 4K lines of comments.
+be able to locate simulated victims in closed spaces, simulating what is to
+happen during emergency situations. A rescuer has to first detect the
+``holes" in walls behind which these victims are assumed to be located. The
+unmanned ground vehicle PANDORA competes in the autonomous class and uses a
+RGB and a Depth camera for such purposes. Each of the images of the two cameras
+undergo independent analyses so as to make locating the precise outline of holes
+more probable. Figure \ref{fig:holes} shows an example outcome of such analyses
+after cross-referencing RGB-derived holes to Depth-derived holes and vice versa,
+and after further processing. In terms of development and testing time, the
+resulting ROS package took around seven months to build; in terms of size it is
+comprised of around 8K lines of code and 4K lines of comments.
 
 %\begin{figure}[H]\centering
   %\includegraphics[scale=1]{images/pandora_robot.jpg}

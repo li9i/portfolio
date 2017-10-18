@@ -8,18 +8,21 @@ labels). Given this set, we would like to build a classifier which, trained with
 this set, can classify unseen data to multiple labels with the highest accuracy
 possible.
 
-The solution was sought after through the extension of the framework of Learning
+The solution was sought after through extending the framework of Learning
 Classifier Systems to the multi-label dimension. LCS's are systems that
 represent data instances with rules of the form ``antecedents $\Rightarrow$
-consequents". Within this frame, rules undergo (a) crossover with other rules
-depending on a measure of their fitness (their ``quality"), and (b) mutations
-indiscriminately during crossover, through time, iteratively. The resulting
-classifier was compared against the state-of-the-art classifiers on a number of
-datasets and its performance was found to be (a) overall the highest in terms of
-accuracy, and (b) not statistically significantly divergent than those it was
-compared against. Table \ref{table:accuracyBasedComparison} shows the accuracy
-of the designed LCS called GMl-ASLCS and that of its rivals on 6 standard
-multi-label datasets.
+consequents". Within this frame, rules are treated as a population evolving
+through time according to the principles of evolution mapped out by Charles
+Darwin. Rules undergo (a) crossover with other rules depending on a measure of
+their fitness (their ``quality"), and (b) mutations indiscriminately during
+crossover, through time, iteratively.
+
+The resulting classifier, called GMl-ASLCS, was compared against the
+state-of-the-art classifiers on a number of datasets and its performance was
+found to be (a) overall the highest in terms of accuracy, and (b) not
+statistically significantly divergent than those it was compared against. Table
+\ref{table:accuracyBasedComparison} shows the accuracy of the designed LCS
+called GMl-ASLCS and that of its rivals on 6 standard multi-label datasets.
 
 \begin{table}[!h]
   \begin{center}
@@ -33,7 +36,7 @@ multi-label datasets.
     Ml$k$NN           & $53.26^2$ & $51.62^2$ & $94.11^4$     & $\textbf{66.14}^1$ & $41.77^4$ & $31.84^5$ & $3.00^3$
     \\
     \end{tabular}
-    \caption{Comparison of GMl-ASLCS and rival multi-label classifier algorigthms.
+    \caption{Comparison between GMl-ASLCS and rival multi-label classifier algorigthms.
     The exponents refer to the rank of each algorithm on each specific dataset.
     Column ``Rank" summarises the overall rank of each classifier.}
 	\label{table:accuracyBasedComparison}

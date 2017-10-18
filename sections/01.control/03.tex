@@ -1,74 +1,29 @@
-\subsection{Tracking the circumference of a circle with a RC car}
+\subsection{Tracking the centerline of a lane with a RC car}
 
 Context: Automatic Control Project Course EL2425, Royal Institute of
 Technology (KTH), Stockholm, Sweden.\\
 
 Problem statement: suppose a remotely controlled vehicle chassis of Ackermann
-steering that can be localized in space, equipped with a computing unit. Given a
-circular path, the goal is for the vehicle to navigate the path as close as
-possible. The solution was sought after using Model Predictive Control with
-variable reference poses within the horizon of the optimization problem.
-Figures \ref{fig:circular_mpc_trajectory_transient} and
-\ref{fig:circular_mpc_trajectory_ss} show the trajectory of the vehicle from
-a top view during the transient phase and the steady-state phase respectively.
-Accordingly, figures \ref{fig:circular_mpc_error_transient} and
-\ref{fig:circular_mpc_error_ss} show the respective errors in each phase as
-a function of time. These figures refer to actual experiments, not simulations.
-Notably, the steady-state error does not exceed $3.5$cm, that is, the center
-of gravity of the vehicle does not diverge more than $3.5$cm from the reference
-circular trajectory.
+steering, equipped with a laser rangefinder and a computing unit. Given a
+straight path (something that simulates a road lane, e.g. a corridor), the goal
+is for the vehicle to navigate the path while always staying in the middle of it.
+The solution to the problem involves solving two distinct and independent
+sub-problems, centered around the (a) translational error, and (b) the
+rotational error, with respect to the middle line of the path. Furthermore, the
+problem can be approached by two ways: through the design of a PID controller,
+which is easier to setup, faster in execution, but potentially difficult to tune,
+and through that of a MPC controller, which requires more work, is slower in
+execution, but is more robust than the PID controller. Figure
+\ref{fig:centerline_pid_error} shows the evolution of the one-dimensional
+angular error of the vehicle under control by the PID controller.
 
-
-\noindent\makebox[\linewidth][c]{%
-\begin{minipage}{\linewidth}
-  \begin{minipage}{0.45\linewidth}
-    \begin{figure}[H]
-      \scalebox{0.6}{\input{images/circumference_trajectory_transient.tex}}
-      \caption{Reference trajectory (red) and trajectory of the vehicle (blue),
-        in the transient phase.}
-      \label{fig:circular_mpc_trajectory_transient}
-    \end{figure}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.45\linewidth}
-    \begin{figure}[H]
-      \scalebox{0.6}{\input{images/circumference_error_transient.tex}}
-      \caption{The discrepancy in distance between the trajectory of the vehicle
-        and the reference trajectory in the transient phase.}
-      \label{fig:circular_mpc_error_transient}
-    \end{figure}
-  \end{minipage}
-\end{minipage}
-}
-
-\noindent\makebox[\linewidth][c]{%
-\begin{minipage}{\linewidth}
-  \begin{minipage}{0.45\linewidth}
-    \begin{figure}[H]
-      \scalebox{0.6}{\input{images/circumference_trajectory_ss.tex}}
-      \caption{Reference trajectory (red) and trajectory of the vehicle (blue),
-        in steady state.}
-      \label{fig:circular_mpc_trajectory_ss}
-    \end{figure}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.45\linewidth}
-    \begin{figure}[H]
-      \scalebox{0.6}{\input{images/circumference_error_ss.tex}}
-      \caption{The discrepancy in distance between the trajectory of the vehicle
-        and the reference trajectory in steady state.}
-      \label{fig:circular_mpc_error_ss}
-    \end{figure}
-  \end{minipage}
-\end{minipage}
-}
+\begin{figure}[H]\centering
+  \scalebox{0.6}{\input{images/centerline_pid_error.tex}}
+  \caption{The angular error of the vehicle controlled via PID control in degrees.}
+  \label{fig:centerline_pid_error}
+\end{figure}
 
 \noindent Sample results can be found in the following video sequences:\\
-
-\noindent \url{https://www.youtube.com/watch?v=Vh1huYlyD_8}\\
-\url{https://youtu.be/937OZez1iN8?t=69}\\
-
-As can be seen in these videos, the main challenge lies in the fact that the
-velocity of the RC vehicle is large compared to the radius of the circle to be
-tracked.\\\\
-Notions / resources / tools involved: Predictive Control, ROS (Linux), Python, git, MATLAB.
+\url{https://www.youtube.com/watch?v=w3Wnw5SLmss}\\
+\url{https://youtu.be/937OZez1iN8?t=142}\\\\
+Notions / resources / tools involved: $\{$PID, Predictive$\}$ Control, ROS (Linux), Python, git, MATLAB.
