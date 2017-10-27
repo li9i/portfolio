@@ -2,9 +2,12 @@
 \BOOKMARK [2][-]{subsection.1.1}{Robust Decentralized Control of Cooperative Multi-robot Systems}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Tracking the circumference of a circle with a RC car}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.3}{Tracking the centerline of a lane with a RC car}{section.1}% 4
-\BOOKMARK [1][-]{section.2}{Estimation Projects}{}% 5
-\BOOKMARK [2][-]{subsection.2.1}{How one detects vehicles violating the speed limit when all one has is a stationary camera}{section.2}% 6
-\BOOKMARK [1][-]{section.3}{Computer Vision Projects}{}% 7
-\BOOKMARK [2][-]{subsection.3.1}{Hole detection via RGB-D camera within the RoboCup Rescue competition}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Machine Learning Projects}{}% 9
-\BOOKMARK [2][-]{subsection.4.1}{Multi-label classification using Learning Classifier Systems}{section.4}% 10
+\BOOKMARK [2][-]{subsection.1.4}{Balancing a segway}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Estimation Projects}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{How one detects vehicles violating the speed limit when all one has is a stationary camera}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Computer Vision Projects}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Hole detection via RGB-D camera within the RoboCup Rescue competition}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Machine Learning Projects}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Multi-label classification using Learning Classifier Systems}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Other}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Play Simon with a Raspberry Pi}{section.5}% 13
