@@ -1,7 +1,7 @@
 \subsection{Balancing a segway}
 
-Context: Systems and Control in Practice EL2222, Royal Institute of
-Technology (KTH), Stockholm, Sweden.\\
+Context: Systems and Control in Practice EL2222, KTH Royal Institute of
+Technology, Stockholm, Sweden.\\
 
 Problem statement: suppose a two-wheeled motor-led contraption equipped with a
 computing unit and an IMU. The goal is to balance the system in an upright
@@ -13,23 +13,24 @@ controller that acts in a way that keeps this error at zero. Figures
 \ref{fig:shellfie} and \ref{fig:shellfie_schem} show the real and idealized
 ``shellfie" segway.
 
-
 \noindent\makebox[\linewidth][c]{%
 \begin{minipage}{\linewidth}
   \begin{minipage}{0.45\linewidth}
     \begin{figure}[H]\centering
-      \includegraphics[scale=0.25]{images/shellfie.png}
-      \caption{The custom-built ``shellfie" segway. Image courtesy of Jatesada ``Nicky" Borsub.}
+      \includegraphics[scale=0.20]{images/shellfie.png}
+      \caption{The custom-built ``shellfie" segway. Image courtesy of Jatesada Borsub.}
       \label{fig:shellfie}
     \end{figure}
   \end{minipage}
   \hfill
   \begin{minipage}{0.45\linewidth}
     \begin{figure}[H]\centering
-      \includegraphics[scale=0.32]{images/shellfie_schem.png}
+      \includegraphics[scale=0.25]{images/shellfie_schem.png}
       \caption{The shellfie is in principle an inverted pendulum.}
       \label{fig:shellfie_schem}
     \end{figure}
   \end{minipage}
 \end{minipage}
-}
+}\\
+
+Notions / resources / tools involved: PID Control, Raspberry Pi, IMU, ROS (Linux), Python
