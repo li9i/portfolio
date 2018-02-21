@@ -1,14 +1,14 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Control Projects}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Robust Decentralized Control of Cooperative Multi-robot Systems}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Tracking the circumference of a circle with a RC car}{3}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Tracking the centerline of a lane with a RC car}{4}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Balancing a segway}{5}{subsection.1.4}
-\contentsline {section}{\numberline {2}Estimation Projects}{6}{section.2}
-\contentsline {subsection}{\numberline {2.1}How one detects vehicles violating the speed limit when all one has is a stationary camera}{6}{subsection.2.1}
-\contentsline {section}{\numberline {3}Computer Vision Projects}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Hole detection via RGB-D camera within the RoboCup Rescue competition}{7}{subsection.3.1}
-\contentsline {section}{\numberline {4}Machine Learning Projects}{8}{section.4}
-\contentsline {subsection}{\numberline {4.1}Multi-label classification using Learning Classifier Systems}{8}{subsection.4.1}
-\contentsline {section}{\numberline {5}Other}{8}{section.5}
-\contentsline {subsection}{\numberline {5.1}Play Simon with a Raspberry Pi}{8}{subsection.5.1}
+\contentsline {section}{\numberline {1}Control Projects}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Robust Decentralized Control of Cooperative Multi-robot Systems}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Tracking the circumference of a circle with a RC car}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Tracking the centerline of a lane with a RC car}{7}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Balancing a segway}{8}{subsection.1.4}
+\contentsline {section}{\numberline {2}Estimation Projects}{10}{section.2}
+\contentsline {subsection}{\numberline {2.1}How one detects vehicles violating the speed limit when all one has is a stationary camera}{10}{subsection.2.1}
+\contentsline {section}{\numberline {3}Computer Vision Projects}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Hole detection via RGB-D camera within the RoboCup Rescue competition}{12}{subsection.3.1}
+\contentsline {section}{\numberline {4}Machine Learning Projects}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Multi-label classification using Learning Classifier Systems}{14}{subsection.4.1}
+\contentsline {section}{\numberline {5}Other}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Play Simon with a Raspberry Pi}{15}{subsection.5.1}
