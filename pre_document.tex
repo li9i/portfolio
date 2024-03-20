@@ -1,0 +1,422 @@
+\documentclass[11pt,a4paper,twoside]{book}
+\usepackage[all,defaultlines=3]{nowidow}
+\usepackage[top=30mm, bottom=30mm, inner=30mm, outer=30mm, footskip = 15mm]{geometry}
+
+\usepackage[many]{tcolorbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{footmisc}
+\usepackage[backend=biber,style=alphabetic,sorting=ynt,babel=other,bibencoding=utf8, language=autobib, maxnames=99]{biblatex}
+\addbibresource{bibliography.bib}
+
+
+% Change math fonts refs.:
+% http://mirrors.ibiblio.org/CTAN/macros/xetex/latex/mathspec/mathspec.pdf
+% https://tex.stackexchange.com/questions/412231/xelatex-and-math-fonts-from-main-font
+% https://tex.stackexchange.com/questions/483722/how-to-set-a-font-everywhere-including-math-mode-in-xelatex
+%\usepackage{mathspec}
+
+%\usepackage{fontspec,xgreek,polyglossia}
+%\setotherlanguage[variant=modern]{greek}
+
+% Change math fonts #1
+%\setmathsfont(Digits,Latin)[Scale=MatchLowercase]{CMU Serif}
+%\setmathsfont(Greek)[Scale=MatchLowercase]{CMU Serif}
+%\setmathrm{CMU Serif}
+%\exchangeforms{phi}
+%\setminwhitespace[750]
+
+% Change math fonts #2
+%\setmathfont{CMU Serif}
+%\setmathrm{CMU Serif}
+%\setmathfont[range=it]{CMU Serif-Italic}
+%\setmathfont[range=bfit]{CMU Serif-BoldItalic}
+%\setmathfont[range={}]{CMU Serif} % empty range to get the correct metrics
+
+\usepackage{setspace}
+\doublespacing
+% Colors:
+% Blue-ish: 8FC2FF
+% Yellow-ish: FFE599
+% Red-ish: FF9999
+% Brown-ish: E5C07B
+% Blue/Green-ish: 397880
+
+
+
+\setcounter{secnumdepth}{3}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[hidelinks,unicode]{hyperref}
+\def\UrlBreaks{\do\/\do-}
+\usepackage{subcaption}
+\usepackage{balance}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{stfloats}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{pgfplots}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{dashrule}
+\usepackage{framed}
+\pgfplotsset{compat=1.8}
+\usepgfplotslibrary{statistics}
+\usetikzlibrary{fit,calc}
+\usepackage{gnuplot-lua-tikz}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\usepackage{changepage}
+
+\newcommand*{\addheight}[2][.5ex]{%
+  \raisebox{0pt}[\dimexpr\height+(#1)\relax]{#2}%
+}
+
+\definecolor{transfertoserver}{HTML}{D7191C}
+\definecolor{database}{HTML}{FDAE61}
+\definecolor{transfertoclient}{HTML}{ABDDA4}
+\definecolor{rendering}{HTML}{2B83BA}
+
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\renewcommand\thealgorithm{\Roman{algorithm}}
+\floatname{algorithm}{Αλγόριθμος}
+
+% Italics for theorems
+%\theoremstyle{plain}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Θεώρημα}
+\renewcommand\thetheorem{\Roman{theorem}}
+
+
+% Normal for all the rest
+\theoremstyle{definition}
+\newtheorem{lemma}{Lemma}
+\renewcommand\thelemma{\Roman{lemma}}
+\newtheorem{corollary}{Corollary}
+\renewcommand\thecorollary{\Roman{corollary}}
+\newtheorem{problem}{Problem}
+\renewcommand\theproblem{\Roman{problem}}
+\newtheorem{definition}{Definition}
+\renewcommand\thedefinition{\Roman{definition}}
+\newtheorem{remark}{Remark}
+\renewcommand\theremark{\Roman{remark}}
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Assumption}
+\renewcommand\theassumption{\Roman{assumption}}
+\newtheorem{hypothesis}{Hypothesis}
+\renewcommand\thehypothesis{\Roman{hypothesis}}
+\newtheorem{claim}{Claim}
+\renewcommand\theclaim{\Roman{claim}}
+\newtheorem{scope}{Scope}
+\renewcommand\thescope{\Roman{scope}}
+\newtheorem{innercustomscope}{Πεδίο Εφαρμογής}
+\newenvironment{customscope}[1]
+  {\renewcommand\theinnercustomscope{#1}\innercustomscope}
+  {\endinnercustomscope}
+
+\newtheorem{innercustomproblem}{Problem}
+\newenvironment{customproblem}[1]
+  {\renewcommand\theinnercustomproblem{#1}\innercustomproblem}
+  {\endinnercustomproblem}
+
+\newtheorem{innercustomhypothesis}{Hypothesis}
+\newenvironment{customhypothesis}[1]
+  {\renewcommand\theinnercustomhypothesis{#1}\innercustomhypothesis}
+  {\endinnercustomhypothesis}
+
+\newtheorem{innercustomcontribution}{Contribution}
+\newenvironment{customcontribution}[1]
+  {\renewcommand\theinnercustomcontribution{#1}\innercustomcontribution}
+  {\endinnercustomcontribution}
+
+\renewcommand\theproposition{\Roman{proposition}}
+\newtheorem{objective}{Objective}
+\renewcommand\theobjective{\Roman{objective}}
+\newtheorem{operation}{Operation}
+\renewcommand\theoperation{\Roman{operation}}
+
+%\renewcommand{\qedsymbol}{$\blacksquare$}
+\renewcommand{\qedsymbol}{\hfill$\blacksquare$}
+
+% Squares and their colours for global localisation tables
+\definecolor{glca}{RGB}{235,172,35}
+\definecolor{glcb}{RGB}{184,0,88}
+\definecolor{glcc}{RGB}{0,140,249}
+\definecolor{glcd}{RGB}{0,110,0}
+\definecolor{glce}{RGB}{0,187,173}
+\definecolor{glcf}{RGB}{209,99,230}
+\definecolor{glcg}{RGB}{178,69,2}
+\definecolor{glch}{RGB}{255,146,135}
+\definecolor{glci}{RGB}{89,84,214}
+\definecolor{glcj}{RGB}{135,133,0}
+\definecolor{glck}{RGB}{0,198,248}
+\newcommand*{\squarea}{\textcolor{glca}{\blacksquare}}
+\newcommand*{\squareb}{\textcolor{glcb}{\blacksquare}}
+\newcommand*{\squarec}{\textcolor{glcc}{\blacksquare}}
+\newcommand*{\squared}{\textcolor{glcd}{\blacksquare}}
+\newcommand*{\squaree}{\textcolor{glce}{\blacksquare}}
+\newcommand*{\squaref}{\textcolor{glcf}{\blacksquare}}
+\newcommand*{\squareg}{\textcolor{glcg}{\blacksquare}}
+\newcommand*{\squareh}{\textcolor{glch}{\blacksquare}}
+\newcommand*{\squarei}{\textcolor{glci}{\blacksquare}}
+\newcommand*{\squarej}{\textcolor{glcj}{\blacksquare}}
+\newcommand*{\squarek}{\textcolor{glck}{\blacksquare}}
+
+\definecolor{sinisn0}{RGB}{255,255,255}
+\definecolor{sinisn1}{RGB}{255,247,251}
+\definecolor{sinisn2}{RGB}{236,226,240}
+\definecolor{sinisn3}{RGB}{208,209,230}
+
+
+\definecolor{m}{RGB}{255,0,255}
+\definecolor{k}{RGB}{0,0,0}
+\newcommand*{\bulletmagenta}{\textcolor{m}{\bullet}}
+\newcommand*{\bulletblack}{\textcolor{k}{\bullet}}
+
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{litegray}{rgb}{0.8,0.8,0.8}
+\definecolor{keyword}{rgb}{0.5,0.5,0.5}
+\definecolor{greenCode}{rgb}{0, 0.6, 0}
+
+\lstdefinelanguage{HTTP}{
+  keywords={GET},
+  ndkeywords={PUT},
+  comment=[s]{PO}{T},
+  morecomment=[s]{D}{LETE}
+}
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  language={HTTP},
+  breaklines=true,
+  frame=tb,
+  captionpos=b,
+  keywordstyle=\bfseries\color{greenCode},
+  ndkeywordstyle=\bfseries\color{red},
+  commentstyle=\bfseries\color{magenta},
+  stringstyle=\bfseries\color{black},
+  xleftmargin={0.75cm},
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  numbers=left,
+  numberstyle=\small\color{black},
+}
+
+\lstset{escapechar=@,style=customc}
+
+%\ifCLASSINFOpdf
+   %\usepackage[pdftex]{graphicx}
+%\else
+%\fi
+
+\usepackage{flushend} % Equalize last page
+\usepackage[colorinlistoftodos]{todonotes}
+
+% BOXES
+\usepackage{environ}
+\NewEnviron{gg_box}{%
+  \vspace{0.5cm}
+  \begin{tcolorbox}[colback=black!5, colframe=white!80!, breakable]
+  %\begin{tcolorbox}[colback=white!10, colframe=black!30!, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\definecolor{sticky_note_yellow}{cmyk}{0.0, 0.0, 0.06, 0.0, 1.00}
+\NewEnviron{sticky_note_box}{%
+  \vspace{0.5cm}
+  \begin{tcolorbox}[colback = sticky_note_yellow, colframe=sticky_note_yellow, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\NewEnviron{bw_box}{%
+  \vspace{0.5cm}
+  \begin{tcolorbox}[colback=white!10, colframe=black!80!, arc=0pt,outer arc=0pt, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\NewEnviron{gw_box}{%
+  \vspace{0.5cm}
+  \begin{tcolorbox}[colback=white!10, colframe=black!10!, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\NewEnviron{bg_box}{%
+  \vspace{0.5cm}
+  \begin{tcolorbox}[colback=black!10, colframe=black!80!, arc=0pt,outer arc=0pt, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\widowpenalty=9000
+\clubpenalty=9000
+\interfootnotelinepenalty=10000
+
+% Redefines cleardoublepage so as to remove headers/footers
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}
+\vspace*{\fill}
+\begin{center}
+%This page intentionally left
+\end{center}
+\vspace{\fill}
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\raggedbottom
+
+% allows a break to occur anywhere
+\allowdisplaybreaks
+
+% insert blank page . . .
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+%. . . by calling \afterpage{\blankpage}
+
+% Refresh symbol
+\def\Circlearrowleft{\ensuremath{%
+  \rotatebox[origin=c]{180}{$\circlearrowleft$}}}
+
+% Better stackrel: \leftstackrel
+\newlength{\leftstackrelawd}
+\newlength{\leftstackrelbwd}
+\def\leftstackrel#1#2{\settowidth{\leftstackrelawd}%
+{${{}^{#1}}$}\settowidth{\leftstackrelbwd}{$#2$}%
+\addtolength{\leftstackrelawd}{-\leftstackrelbwd}%
+\leavevmode\ifthenelse{\lengthtest{\leftstackrelawd>0pt}}%
+{\kern-.5\leftstackrelawd}{}\mathrel{\mathop{#2}\limits^{#1}}}
+
+
+% Annulus plot
+\usepackage{xcolor}
+\usepackage{xparse}
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning}
+\usetikzlibrary{decorations, decorations.text}
+
+\newlength{\layerwd}
+\newcounter{outermost}
+
+\NewDocumentEnvironment{onion}{sm}{%*= draw axes; #1: thickness of each annulus
+    \begin{tikzpicture}
+        \setlength{\layerwd}{#2}%
+        \setcounter{outermost}{0}
+        \IfBooleanT{#1}{%
+            \draw[<->] (-4,0) -- (4,0);
+            \draw[<->] (0,4) -- (0,-4);
+        }%
+}{%
+    %\foreach \A in {0,...,\theoutermost}{\draw[thick] (0,0) circle (\A*\layerwd+\layerwd);}
+    \end{tikzpicture}
+}
+
+% *=text on a circular path; [optional fill color]; #3 layer;
+% #4 start angle; #5 stop angle; #6 [optional text]
+%% angles are counterclockwise in degrees
+\NewDocumentCommand{\annulus}{sO{lightgray}mmmo}{%
+
+    \ifthenelse{#3=0}
+    {
+      %\filldraw[thick,fill=#2] (#4:#3*\layerwd) %% start here
+        %arc [radius=#3*\layerwd, start angle=#4, delta angle=#5-#4] %% inner arc
+        %-- (#5:#3*\layerwd+\layerwd) %% move out
+        %arc [radius=#3*\layerwd+\layerwd, start angle=#5, delta angle=#4-#5] %% outer arc
+        %-- cycle; %% Back to the beginnning
+    }
+    {
+      \filldraw[thick,fill=#2] (#4:#3*\layerwd) %% start here
+      arc [radius=#3*\layerwd, start angle=#4, delta angle=#5-#4] %% inner arc
+      -- (#5:#3*\layerwd+\layerwd) %% move out
+      arc [radius=#3*\layerwd+\layerwd, start angle=#5, delta angle=#4-#5] %% outer arc
+      -- cycle; %% Back to the beginnning
+    }
+    \pgfmathsetmacro{\tmp}{(#5-#4)/2 +#4} %% Locate the middle of the arc
+    \IfNoValueF{#6}{%
+        \IfBooleanTF{#1}
+        {%
+            \begingroup
+                %% text is always rightside-up:
+                \pgfmathsetmacro{\rpTF}{ifthenelse(\tmp>180,"false","true")}
+                \def\\{\space} %% A safety precaution, \\ = space on decorated text
+                \path[rotate=\tmp-180,postaction={
+                    decorate,
+                    decoration={
+                        text along path,
+                        raise=-3pt,
+                        text align={align=center},
+                        reverse path=\rpTF,
+                        text=#6
+                    }
+                }] (0,0) circle (#3*\layerwd+0.5*\layerwd);
+            \endgroup
+        }%%
+        {%
+            \pgfmathsetmacro{\rpTF}{ifthenelse(\tmp>180,\tmp+90,\tmp-90)}
+            \pgfmathsetmacro{\rpTF}{ifthenelse(#3==0,\rpTF-90,\rpTF)}
+            \node[inner sep=0pt, %%% If there is text, print it
+            text width=#3*\layerwd*3+\layerwd,
+            align=center,
+            rotate=\rpTF,
+            font=\footnotesize] at (\tmp:#3*\layerwd+0.5*\layerwd)
+            {#6};
+        }%
+    }%
+    \ifnum\theoutermost<#3\setcounter{outermost}{#3}\fi
+}
+
+
+% Double \ast = \astt
+\DeclareRobustCommand\astt{%
+  \leavevmode
+  {\sbox0{\ddag}%
+   \ooalign{\raisebox{\ht0-\height}{*}\cr
+            \raisebox{\depth-\dp0}{\scalebox{1}[-1]{*}}\cr}%
+  }%
+}
+
+
+
+% Highlight algorithm parts with color
+\newcommand*{\tikzmk}[1]{\tikz[remember picture,overlay,] \node (#1) {};\ignorespaces}
+%define a boxing command, argument = colour of box
+\newcommand{\boxit}[1]{\tikz[remember picture,overlay]{\node[yshift=3pt,fill=#1,opacity=.25,fit={($(A)+(-0.038\linewidth,.3\baselineskip)$)($(B)+(.9\linewidth,-.3\baselineskip)$)}] {};}\ignorespaces}
+
+\definecolor{alg1}{RGB}{251,180,174}
+\definecolor{alg2}{RGB}{255,255,204}
+\definecolor{alg3}{RGB}{179,205,227}
+
+\definecolor{alg4}{RGB}{229,245,224}
+\definecolor{alg5}{RGB}{161,217,155}
+\definecolor{alg6}{RGB}{49,163,84}
+
+% Manipulate vspace for algorithm
+\makeatletter
+\newcommand\fs@spaceruled{\def\@fs@cfont{\bfseries}\let\@fs@capt\floatc@ruled
+  \def\@fs@pre{\vspace{0.5\baselineskip}\hrule height.8pt depth0pt \kern2pt}%
+  \def\@fs@post{\kern2pt\hrule\relax}%
+  \def\@fs@mid{\kern2pt\hrule\kern2pt}%
+  \let\@fs@iftopcapt\iftrue}
+\makeatother

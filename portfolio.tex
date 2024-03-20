@@ -1,43 +1,18 @@
-\documentclass[oneside,12pt]{article}
-\usepackage{fontspec}
-%\setmainfont{cmr17}
-\usepackage{fancyhdr}
-\usepackage{indentfirst}
-\usepackage[hidelinks]{hyperref}
-\usepackage{caption}
-\usepackage{graphicx}
-\usepackage{tikz}
-\usepackage{pgfplots}
-\usepackage{float}
-\usepackage[paperwidth=8.5in, paperheight=11in, margin=1in]{geometry}
-\usepackage[english]{babel}
-\hypersetup{urlcolor=blue,colorlinks=true,linkcolor=black}
-\pagestyle{fancy}
-\usepackage{setspace}
-\doublespacing
-\lhead{Alexandros Filotheou}
-\cfoot{\thepage}
-\rhead{}
-%\setcounter{secnumdepth}{0}
-  %\setlength\itemsep{1em}
-  %\interfootnotelinepenalty=10000
-%\newcommand{\specialcell}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
-%\captionsetup[figure]{labelformat=empty}
-
+%\documentclass[oneside,12pt]{article}
 \widowpenalty=1000
 \clubpenalty=1000
 
 % Page numbering off?
 %\pagenumbering{gobble}
 
-\usepackage[all,defaultlines=3]{nowidow}
+\input{pre_document.tex}
 
 
 \begin{document}
 
-  \title{A small collection of projects}
-  \author{Dipl.-Ing (EE) Alexandros Filotheou, M.Sc.}
-  \date{FEB 2018}
+  \title{\Huge A small incomplete collection of projects I have undertaken over the years}
+  \author{Dipl.-Ing (EE) Alexandros Philotheou, M.Sc. Ph.D.}
+  \date{MAR 2024}
   \maketitle
   \vspace{2cm}
 
@@ -65,5 +40,8 @@
 
   \section{Other}
     \input{sections/05.other/01.tex}
+
+  \cleardoublepage
+\printbibliography[heading=none,notcategory=nobibliography]
 
 \end{document}
