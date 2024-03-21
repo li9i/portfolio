@@ -3,29 +3,35 @@
 Context: Automatic Control Project Course EL2425, KTH Royal Institute of
 Technology, Stockholm, Sweden.\\
 
-Problem statement: suppose a remotely controlled vehicle chassis of Ackermann
-steering that can be localized in space, equipped with a computing unit. Given a
-circular path, the goal is for the vehicle to navigate the path as close as
-possible. The solution was sought after using Model Predictive Control with
-variable reference poses within the horizon of the optimization problem.
-Figures \ref{fig:circular_mpc_trajectory_transient} and
-\ref{fig:circular_mpc_trajectory_ss} show the trajectory of the vehicle from
-a top view during the transient phase and the steady-state phase respectively.
-Accordingly, figures \ref{fig:circular_mpc_error_transient} and
-\ref{fig:circular_mpc_error_ss} show the respective errors in each phase as
-a function of time. These figures refer to actual experiments, not simulations.
-Notably, the steady-state error does not exceed $3.5$cm, that is, the center
-of gravity of the vehicle does not diverge more than $3.5$cm from the reference
-circular trajectory.
+\noindent \href{https://github.com/li9i/HT16_P2_EL2425}{\texttt{[Code]}} \href{https://github.com/li9i/HT16_P2_EL2425_resources}{\texttt{[Wiki/Resources]}} \href{https://www.youtube.com/watch?v=Vh1huYlyD_8}{\texttt{[Video 1}} $|$ \href{https://youtu.be/937OZez1iN8?t=69}{\texttt{Video 2]}}
 
+
+\begin{problem}
+Assume a remotely controlled vehicle of Ackermann steering whose pose
+$(x,y,\theta)$ is measureable in 2D space, equipped with a computing unit.
+Given a circular path of appropriate radiue, the goal is for the vehicle to
+navigate the path as closely as possible.
+\end{problem}
+
+The solution was sought after using Model Predictive Control, with variable
+reference poses within the horizon of the optimization problem. Figure
+\ref{fig:circular_mpc_trajectory_transient} shows the trajectory of the vehicle
+from a top view during the transient phase; figure
+\ref{fig:circular_mpc_trajectory_ss} depicts it during the steady-state phase.
+Accordingly, figures \ref{fig:circular_mpc_error_transient} and
+\ref{fig:circular_mpc_error_ss} show the respective errors in each phase as a
+function of time. These refer to actual experiments, not simulations.  Notably,
+the steady-state error does not exceed $3.5$cm, that is, the center of gravity
+of the vehicle does not diverge more than $3.5$cm from the reference circular
+trajectory.
 
 \noindent\makebox[\linewidth][c]{%
 \begin{minipage}{\linewidth}
   \begin{minipage}{0.45\linewidth}
     \begin{figure}[H]
       \scalebox{0.6}{\input{images/circumference_trajectory_transient.tex}}
-      \caption{Reference trajectory (red) and trajectory of the vehicle (blue),
-        in the transient phase.}
+      \caption{\small Reference trajectory (red) and trajectory of the vehicle
+               (blue), in the transient phase}
       \label{fig:circular_mpc_trajectory_transient}
     \end{figure}
   \end{minipage}
@@ -33,8 +39,9 @@ circular trajectory.
   \begin{minipage}{0.45\linewidth}
     \begin{figure}[H]
       \scalebox{0.6}{\input{images/circumference_error_transient.tex}}
-      \caption{The discrepancy in distance between the trajectory of the vehicle
-        and the reference trajectory in the transient phase, in meters.}
+      \caption{\small The discrepancy in distance between the trajectory of the
+               vehicle and the reference trajectory in the transient phase,
+               in meters}
       \label{fig:circular_mpc_error_transient}
     \end{figure}
   \end{minipage}
@@ -46,8 +53,8 @@ circular trajectory.
   \begin{minipage}{0.45\linewidth}
     \begin{figure}[H]
       \scalebox{0.6}{\input{images/circumference_trajectory_ss.tex}}
-      \caption{Reference trajectory (red) and trajectory of the vehicle (blue),
-        in steady state.}
+      \caption{\small Reference trajectory (red) and trajectory of the vehicle
+               (blue), in steady state}
       \label{fig:circular_mpc_trajectory_ss}
     \end{figure}
   \end{minipage}
@@ -55,20 +62,12 @@ circular trajectory.
   \begin{minipage}{0.45\linewidth}
     \begin{figure}[H]
       \scalebox{0.6}{\input{images/circumference_error_ss.tex}}
-      \caption{The discrepancy in distance between the trajectory of the vehicle
-        and the reference trajectory in steady state, in meters.}
+      \caption{\small The discrepancy in distance between the trajectory of the
+               vehicle and the reference trajectory in steady state, in meters}
       \label{fig:circular_mpc_error_ss}
     \end{figure}
   \end{minipage}
 \end{minipage}
-}
+}\\
 
-\noindent Sample results can be found in the following video sequences:\\
-
-\noindent \url{https://www.youtube.com/watch?v=Vh1huYlyD_8}\\
-\url{https://youtu.be/937OZez1iN8?t=69}\\
-
-As can be seen in these videos, the main challenge lies in the fact that the
-velocity of the RC vehicle is large compared to the radius of the circle to be
-tracked.\\\\
-Notions / resources / tools involved: Predictive Control, ROS (Linux), Python, git, MATLAB.
+\noindent Notions/resources/tools involved: Predictive Control, ROS kinetic, Linux, Python, git, MATLAB

@@ -1,34 +1,43 @@
 \subsection{Robust Decentralized Control of Cooperative Multi-robot Systems}
 
-Context: M.Sc. Degree Project, KTH Royal Institute of Technology, Stockholm, Sweden.\\
+Context: M.Sc. Degree Project, KTH Royal Institute of Technology, Stockholm, Sweden.
+
+\noindent \href{https://github.com/li9i/KTH_thesis_simulations}{\texttt{[Code]}} \href{https://github.com/li9i/KTH_thesis_presentation}{\texttt{[Presentation]}} \href{https://github.com/li9i/KTH_thesis_presentation}{\texttt{[Report]}}
 
 \begin{problem}
-Suppose that in a given 3D physical workspace there are a number of agents
-whose motion is described by non-linear continuous-time dynamics, and a
-number of obstacles. All agents are constrained in (a) moving within the
-workspace boundaries and (b) avoiding collisions with each other and with the
-obstacles in the workspace. Additionally, some agents are constrained in
-keeping certain distance bounds from other agents. Given this setting and
-these constraints, the goal is for the whole multi-agent system to navigate
-itself from some initial configuration to a goal configuration and to stay
-there (be stable there), regardless of disturbances affecting the agents.
+In a given 3D physical workspace there are a number of agents whose motion is
+described by non-linear continuous-time dynamics, and a number of obstacles.
+All agents are constrained in (a) moving within the workspace boundaries and
+(b) avoiding collisions with each other and with the obstacles in the
+workspace. Additionally, some agents are constrained in keeping certain
+distance bounds from other agents. Given this setting and these constraints,
+the goal is for the whole multi-agent system to navigate itself from some
+initial configuration to a goal configuration and to stay there (be stable
+there), regardless of disturbances affecting the agents.
 \end{problem}
 
-One solution to this problem involves the design of a robust decentralized
-model predictive control regime for the team of cooperating robot systems.
-While the problem involves agents whose dynamics are independent of
-one-another, this solution couples their constraints as a means of capturing
-the cooperative behaviour required. Figure \ref{fig:d_OFF_res_trajectory_3_2}
-shows a three-agent system passing through a narrow gap between two objects
-before reaching its intended configuration, without additionally violating its
+One solution to this problem is the design of a robust model predictive control
+regime for the entire team of cooperating robot systems. In this case there are
+two schools of thought: control laws are handed down by an all-knowing supreme
+authority, or calculated by each agent individually, with the incomplete
+knowledge that each possesses. The decentralised approach is more grounded in
+reality than the first approach, assumes an additional degree of independence
+between agents, and makes no further requirements of the overall system. While
+the problem involves agents whose dynamics are independent of one-another, the
+decentralised solution given here couples their constraints as the means of
+capturing the cooperative behaviour required.  Figure
+\ref{fig:d_OFF_res_trajectory_3_2} shows a three-agent system controlled by
+such a control regime, passing through a narrow gap between two objects before
+reaching its intended configuration, without additionally violating its
 prescribed constraints.
 
 \begin{figure}[H]\centering
   \scalebox{0.8}{\input{images/trajectory_d_OFF_3_2.tex}}
   \caption{\small Trajectories of three agents in the $x-y$ plane. A faint
-           green line connects agents who are to stay within distance certain
-           bounds from one-another. The obstacles are black. Mark O denotes
-           equilibrium configurations. Mark X marks desired configurations}
+           green line connects agents who are to stay within certain distance
+           bounds from one-another. Obstacles are marked with black. Mark
+           $\circ$ denotes equilibrium configurations. Mark $\times$ marks
+           desired configurations}
   \label{fig:d_OFF_res_trajectory_3_2}
 \end{figure}
 
@@ -36,11 +45,11 @@ Analytical proofs are given to show that under the proposed control regime: (a)
 Subject to initial feasibility, the optimization solved at each step by each
 agent will always be feasible, irrespective of whether or not disturbances
 affect the agents. (b) Each (sub)system can be stabilized to a desired
-configuration, either asymptotically when uncertainty is absent, or within a
-neighbourhood of it, when uncertainty is present, thus attenuating the
+configuration, either asymptotically---when uncertainty is absent---or within a
+neighbourhood of it when uncertainty is present, thus attenuating the
 affecting disturbance. In this context disturbances are assumed to be additive
 and bounded.\\
 
-Notions / resources / tools used: Predictive Control, ISS stability, MATLAB, git\\
+\noindent Notions/resources/tools used: Predictive Control, ISS stability, MATLAB, git\\
 
-Publications resulted from this work: \cite{Filotheou2018,Filotheou2020}
+\noindent Publications resulted from this work: \cite{Filotheou2018,Filotheou2020} \\
