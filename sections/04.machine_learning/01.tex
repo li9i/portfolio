@@ -1,12 +1,14 @@
 \subsection{Multi-label classification using Learning Classifier Systems}
 
-Context: Diploma Thesis, Aristotle University of Thessaloniki, Thessaloniki, Greece.\\
+Context: Diploma Thesis, Aristotle University of Thessaloniki, Thessaloniki, Greece; 2013\\
 
-Problem statement: suppose a set of annotated data of multiple labels (not
+\begin{problem}
+Assume a set of annotated data of multiple labels (not
 multiple classes: each instance is simultaneously classified to more than one
 labels). Given this set, we would like to build a classifier which, trained with
 this set, can classify unseen data to multiple labels with the highest accuracy
 possible.
+\end{problem}
 
 The solution was sought after through extending the framework of Learning
 Classifier Systems to the multi-label dimension. LCS's are systems that
@@ -28,19 +30,21 @@ called GMl-ASLCS and that of its rivals on 6 standard multi-label datasets.
   \begin{center}
     \begin{tabular}{l|cccccc|c}
     Algorithms / Datasets& music     & yeast     & genbase       & scene     & medical   & enron     & Rank \\
-    \hline \\ [-2ex]
-    GMl-ASLCS         & $\textbf{60.47}^1$ & $\textbf{51.67}^1$ & $\textbf{98.63}^1$  & $63.15^2$ & $51.58^3$ & $40.35^2$ & $\textbf{1.67}^1$  \\
-    GMl-ASLCS$_{\:0}$ & $50.05^4$ & $45.51^4$ & $87.90^5$     & $42.39^5$ & $40.14^5$ & $39.40^3$ & $4.33^5$      \\
-    BR-J48            & $46.23^5$ & $43.95^5$ & $98.62^{2.5}$ & $51.34^4$ & $\textbf{74.26}^1$ & $36.71^4$ & $3.58^4$    \\
-    RA$k$EL-J48       & $50.91^3$ & $48.74^3$ & $98.62^{2.5}$ & $57.76^3$ & $72.84^2$ & $\textbf{41.04}^1$ & $2.42^2$      \\
-    Ml$k$NN           & $53.26^2$ & $51.62^2$ & $94.11^4$     & $\textbf{66.14}^1$ & $41.77^4$ & $31.84^5$ & $3.00^3$
-    \\
+    \toprule \\ [-2ex]
+    GMl-ASLCS         & $\textbf{60.47}^1$ & $\textbf{51.67}^1$ & $\textbf{98.63}^1$  & $63.15^2$ & $51.58^3$ & $40.35^2$ & $\textbf{1.67}^1$ \\
+    GMl-ASLCS$_{\:0}$ & $50.05^4$ & $45.51^4$ & $87.90^5$     & $42.39^5$ & $40.14^5$ & $39.40^3$ & $4.33^5$                                  \\
+    BR-J48            & $46.23^5$ & $43.95^5$ & $98.62^{2.5}$ & $51.34^4$ & $\textbf{74.26}^1$ & $36.71^4$ & $3.58^4$                         \\
+    RA$k$EL-J48       & $50.91^3$ & $48.74^3$ & $98.62^{2.5}$ & $57.76^3$ & $72.84^2$ & $\textbf{41.04}^1$ & $2.42^2$                         \\
+    Ml$k$NN           & $53.26^2$ & $51.62^2$ & $94.11^4$     & $\textbf{66.14}^1$ & $41.77^4$ & $31.84^5$ & $3.00^3$                         \\ \bottomrule
     \end{tabular}
-    \caption{Comparison between GMl-ASLCS and rival multi-label classifier algorigthms.
-    The exponents refer to the rank of each algorithm on each specific dataset.
-    Column ``Rank" summarises the overall rank of each classifier.}
+    \caption{\small Comparison between GMl-ASLCS and rival multi-label
+             classifier algorigthms.  The exponents refer to the rank of each
+             algorithm on each specific dataset.  Column ``Rank" summarises the
+             overall rank of each classifier}
 	\label{table:accuracyBasedComparison}
     \end{center}
 \end{table}
 
-Notions / resources / tools: Genetic algorithms, Java, git.
+\begin{itemize}
+  \item Notions/resources/tools: Genetic algorithms, Java, git
+\end{itemize}
