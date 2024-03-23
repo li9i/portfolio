@@ -1,29 +1,34 @@
 \subsection{Tracking the centerline of a lane with a RC car}
 
-Context: Automatic Control Project Course EL2425, KTH Royal Institute of
-Technology, Stockholm, Sweden.\\
+Context: EL2425 Automatic Control Project Course, KTH Royal Institute of
+Technology, Stockholm, Sweden; 2017
 
-Problem statement: suppose a remotely controlled vehicle chassis of Ackermann
+\noindent \href{https://github.com/li9i/HT16_P2_EL2425}{\texttt{[Code]}} \href{https://github.com/li9i/HT16_P2_EL2425_resources}{\texttt{[Wiki/Resources]}} \href{https://www.youtube.com/watch?v=w3Wnw5SLmss}{\texttt{[Video 1}} $|$ \href{https://youtu.be/937OZez1iN8?t=142}{\texttt{Video 2]}} \\
+
+\begin{problem}
+Assume a remotely controlled vehicle chassis of Ackermann
 steering, equipped with a laser rangefinder and a computing unit. Given a
 straight path (something that simulates a road lane, e.g. a corridor), the goal
 is for the vehicle to navigate the path while always staying in the middle of it.
+\end{problem}
+
 The solution to the problem involves solving two distinct and independent
 sub-problems, centered around the (a) translational error, and (b) the
 rotational error, with respect to the middle line of the path. Furthermore, the
 problem can be approached by two ways: through the design of a PID controller,
-which is easier to setup, faster in execution, but potentially difficult to tune,
-and through that of a MPC controller, which requires more work, is slower in
-execution, but is more robust than the PID controller. Figure
+which is easier to setup, faster in execution, but potentially difficult to
+tune, and through that of a MPC controller, which requires more work, is slower
+in execution, but is more robust than the PID controller. Figure
 \ref{fig:centerline_pid_error} shows the evolution of the one-dimensional
 angular error of the vehicle under control by the PID controller.
 
 \begin{figure}[H]\centering
   \scalebox{0.6}{\input{images/centerline_pid_error.tex}}
-  \caption{The angular error of the vehicle controlled via PID control in degrees.}
+  \caption{\small The angular error of the vehicle controlled via PID control
+           in degrees}
   \label{fig:centerline_pid_error}
 \end{figure}
 
-\noindent Sample results can be found in the following video sequences:\\
-\url{https://www.youtube.com/watch?v=w3Wnw5SLmss}\\
-\url{https://youtu.be/937OZez1iN8?t=142}\\\\
-Notions / resources / tools involved: $\{$PID, Predictive$\}$ Control, ROS (Linux), Python, git, MATLAB.
+\begin{itemize}
+  \item Notions/resources/tools used: $\{$PID, Predictive$\}$ Control, ROS,  Linux, Python, git, MATLAB, MoCap
+\end{itemize}

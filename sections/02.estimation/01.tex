@@ -1,12 +1,19 @@
 \subsection{How one detects vehicles violating the speed limit when
 all one has is a stationary camera}
 
-Context: Applied Estimation Project EL2320, KTH Royal Institute of Technology,
-Stockholm, Sweden.\\
+Context: EL2320 Applied Estimation Project, KTH Royal Institute of Technology,
+Stockholm, Sweden; 2016
 
-Problem statement: suppose a stationary camera overseeing a stretch of road on
+\noindent \href{https://github.com/li9i/HT15_P2_EL2320_Lab_1}{\texttt{[Kalman filter \ \ implementation and documentation]}}
+
+ \noindent \href{https://github.com/li9i/HT15_P2_EL2320_Lab_2}{\texttt{[Particle filter implementation and documentation]}}\\
+
+
+\begin{problem}
+Assume a stationary camera overseeing a stretch of road on
 which vehicles travel freely. We would like to identify vehicles travelling at
 a speed larger than a given threshold.
+\end{problem}
 
 One solution is comprised of two segments: (a) At first, a differentiation
 between what is considered background (the unvaried and vehicle-less road scene)
@@ -19,15 +26,18 @@ velocity of each detected vehicle. Given that the camera is stationary,
 information (or even guesstimates) about its placement with respect to the
 road it oversees can establish a correspondence between a vehicle's real (road)
 velocity and represented (image) velocity, so that vehicles above the speed
-limit are identified. Image\ref{fig:kf_1} shows a frame drawn from a video
+limit are identified. Image \ref{fig:kf_1} shows a frame drawn from a video
 sequence where the position and velocity of two vehicles are being tracked.
 
 \begin{figure}[H]\centering
   \includegraphics[scale=0.55]{images/kf_1.png}
-  \caption{Two vehicles are successfully detected, with their velocity vector
-    being estimated through time, using one Kalman filter per vehicle.}
+  \caption{\small Two vehicles are successfully detected, with their velocity
+           vector being estimated through time, using one Kalman filter per
+           vehicle}
   \label{fig:kf_1}
 \end{figure}
 
-Notions / resources / tools involved: video segmentation, Kalman filter,
-Particle filter, MATLAB.
+\begin{itemize}
+\item Notions/resources/tools used: video segmentation, Gaussian Mixture Models, Kalman filter,
+Particle filter, MATLAB
+\end{itemize}
