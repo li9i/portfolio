@@ -4,30 +4,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {0.1.1}RELIEF: Intelligent Repeaters and Robots for Fast, Reliable, Low-Cost RFID Inventorying \& Localization}{4}{subsection.0.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.2}CultureID: Internet of Things, Robotics, Big Data, AI in Culture}{5}{subsection.0.1.2}
+\contentsline {subsection}{\numberline {0.1.2}CultureID: Internet of Things, Robotics, Big Data, AI in Culture}{6}{subsection.0.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.2}Control Projects}{6}{section.0.2}
+\contentsline {section}{\numberline {0.2}Control Projects}{7}{section.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.1}Robust Decentralized Control of Cooperative Multi-robot Systems}{6}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {0.2.1}Robust Decentralized Control of Cooperative Multi-robot Systems}{7}{subsection.0.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.2}Tracking the circumference of a circle with a RC car}{8}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {0.2.2}Tracking the circumference of a circle with a RC car}{9}{subsection.0.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.3}Tracking the centerline of a lane with a RC car}{10}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {0.2.3}Tracking the centerline of a lane with a RC car}{11}{subsection.0.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.4}Balancing a segway}{11}{subsection.0.2.4}
+\contentsline {subsection}{\numberline {0.2.4}Balancing a segway}{12}{subsection.0.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.3}Estimation Projects}{12}{section.0.3}
+\contentsline {section}{\numberline {0.3}Estimation Projects}{13}{section.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.3.1}How one detects vehicles violating the speed limit when all one has is a stationary camera}{12}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.1}How one detects vehicles violating the speed limit when all one has is a stationary camera}{13}{subsection.0.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.4}Computer Vision Projects}{14}{section.0.4}
+\contentsline {section}{\numberline {0.4}Computer Vision Projects}{15}{section.0.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.4.1}Hole detection via RGB-D camera within the RoboCup Rescue competition}{14}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.1}Hole detection via RGB-D camera within the RoboCup Rescue competition}{15}{subsection.0.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.5}Machine Learning Projects}{16}{section.0.5}
+\contentsline {section}{\numberline {0.5}Machine Learning Projects}{17}{section.0.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.5.1}Multi-label classification using Learning Classifier Systems}{16}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {0.5.1}Multi-label classification using Learning Classifier Systems}{17}{subsection.0.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.6}Other}{17}{section.0.6}
+\contentsline {section}{\numberline {0.6}Other}{18}{section.0.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.6.1}Play Simon with a Raspberry Pi}{17}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {0.6.1}Play Simon with a Raspberry Pi}{18}{subsection.0.6.1}
