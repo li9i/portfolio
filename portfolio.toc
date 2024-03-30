@@ -38,6 +38,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {0.5.1}Multi-label classification using Learning Classifier Systems}{22}{subsection.0.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.6}Other}{24}{section.0.6}
+\contentsline {section}{\numberline {0.6}Other}{23}{section.0.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.6.1}Play Simon with a Raspberry Pi}{24}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {0.6.1}Play Simon with a Raspberry Pi}{23}{subsection.0.6.1}
