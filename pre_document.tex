@@ -8,8 +8,6 @@
 \usepackage{amsthm}
 \usepackage{mathtools}
 \usepackage{footmisc}
-\usepackage[backend=biber,style=alphabetic,sorting=ynt,babel=other,bibencoding=utf8, language=autobib, maxnames=99]{biblatex}
-\addbibresource{bibliography.bib}
 
 
 % Change math fonts refs.:
@@ -18,8 +16,15 @@
 % https://tex.stackexchange.com/questions/483722/how-to-set-a-font-everywhere-including-math-mode-in-xelatex
 %\usepackage{mathspec}
 
-%\usepackage{fontspec,xgreek,polyglossia}
-%\setotherlanguage[variant=modern]{greek}
+\usepackage{fontspec,xgreek,polyglossia}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Mapping=tex-text]{CMU Serif} % choose a font that supports greek characters
+\setdefaultlanguage{english}
+\setotherlanguage[variant=modern]{greek}
+\setmonofont{CMU Typewriter Text}
+
+\usepackage[backend=biber,style=alphabetic,sorting=ynt,babel=other,bibencoding=utf8, language=autobib, maxnames=99]{biblatex}
+\addbibresource{bibliography.bib}
 
 % Change math fonts #1
 %\setmathsfont(Digits,Latin)[Scale=MatchLowercase]{CMU Serif}

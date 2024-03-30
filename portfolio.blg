@@ -1,22 +1,22 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'portfolio.blg'
-[59] biber:287> INFO - === Sat Mar 30, 2024, 13:58:06
-[180] Biber.pm:348> INFO - Reading 'portfolio.bcf'
-[388] Biber.pm:742> INFO - Found 10 citekeys in bib section 0
-[395] Biber.pm:3151> INFO - Processing section 0
-[437] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[502] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[560] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[744] Utils.pm:147> WARN - The field 'number' in entry '9244904' cannot be null, deleting it
-[745] Utils.pm:147> WARN - The field 'volume' in entry '9244904' cannot be null, deleting it
-[745] Utils.pm:147> WARN - The field 'number' in entry '9566425' cannot be null, deleting it
-[745] Utils.pm:147> WARN - The field 'volume' in entry '9566425' cannot be null, deleting it
-[745] Utils.pm:147> WARN - The field 'number' in entry '9617436' cannot be null, deleting it
-[745] Utils.pm:147> WARN - The field 'volume' in entry '9617436' cannot be null, deleting it
-[986] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[986] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[987] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[987] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[1021] bbl.pm:519> INFO - Writing 'portfolio.bbl' with encoding 'UTF-8'
-[1131] bbl.pm:615> INFO - Output to portfolio.bbl
-[1131] Biber.pm:109> INFO - WARNINGS: 6
+[61] biber:287> INFO - === Sat Mar 30, 2024, 14:53:15
+[183] Biber.pm:348> INFO - Reading 'portfolio.bcf'
+[380] Biber.pm:742> INFO - Found 10 citekeys in bib section 0
+[388] Biber.pm:3151> INFO - Processing section 0
+[431] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[496] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[567] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[767] Utils.pm:147> WARN - The field 'number' in entry '9244904' cannot be null, deleting it
+[768] Utils.pm:147> WARN - The field 'volume' in entry '9244904' cannot be null, deleting it
+[768] Utils.pm:147> WARN - The field 'number' in entry '9566425' cannot be null, deleting it
+[768] Utils.pm:147> WARN - The field 'volume' in entry '9566425' cannot be null, deleting it
+[768] Utils.pm:147> WARN - The field 'number' in entry '9617436' cannot be null, deleting it
+[768] Utils.pm:147> WARN - The field 'volume' in entry '9617436' cannot be null, deleting it
+[1034] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1034] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1034] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[1034] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[1069] bbl.pm:519> INFO - Writing 'portfolio.bbl' with encoding 'UTF-8'
+[1182] bbl.pm:615> INFO - Output to portfolio.bbl
+[1183] Biber.pm:109> INFO - WARNINGS: 6
