@@ -4,9 +4,9 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.1}Research Projects with Emphasis on Robotics}{4}{section.0.1}
+\contentsline {section}{\numberline {0.1}Research Projects with Emphasis on Robotics}{5}{section.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.1}RELIEF: Intelligent Repeaters and Robots for Fast, Reliable, Low-Cost RFID Inventorying \& Localization}{4}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {0.1.1}RELIEF: Intelligent Repeaters and Robots for Fast, Reliable, Low-Cost RFID Inventorying \& Localization}{5}{subsection.0.1.1}
 \defcounter {refsection}{0}\relax 
 \select@language {greek}
 \defcounter {refsection}{0}\relax 
@@ -24,20 +24,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {0.2.3}Tracking the centerline of a lane with a RC car}{16}{subsection.0.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.4}Balancing a segway}{17}{subsection.0.2.4}
+\contentsline {subsection}{\numberline {0.2.4}Balancing a segway}{18}{subsection.0.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.3}Estimation Projects}{18}{section.0.3}
+\contentsline {section}{\numberline {0.3}Estimation Projects}{19}{section.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.3.1}How one detects vehicles violating the speed limit when all one has is a stationary camera}{18}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.1}How one detects vehicles violating the speed limit when all one has is a stationary camera}{19}{subsection.0.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.4}Computer Vision Projects}{20}{section.0.4}
+\contentsline {section}{\numberline {0.4}Computer Vision Projects}{21}{section.0.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.4.1}Hole detection via RGB-D camera within the RoboCup Rescue competition}{20}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.1}Hole detection via RGB-D camera within the RoboCup Rescue competition}{21}{subsection.0.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.5}Machine Learning Projects}{22}{section.0.5}
+\contentsline {section}{\numberline {0.5}Machine Learning Projects}{23}{section.0.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.5.1}Multi-label classification using Learning Classifier Systems}{22}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {0.5.1}Multi-label classification using Learning Classifier Systems}{23}{subsection.0.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.6}Other}{23}{section.0.6}
+\contentsline {section}{\numberline {0.6}Other}{24}{section.0.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.6.1}Play Simon with a Raspberry Pi}{23}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {0.6.1}Play Simon with a Raspberry Pi}{24}{subsection.0.6.1}
