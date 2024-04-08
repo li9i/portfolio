@@ -628,6 +628,193 @@
       \endverb
       \keyw{Location awareness;Target tracking;Simultaneous localization and mapping;Phase measurement;Navigation;Prototypes;Particle filters;RFID;Tracking;Localization;Angle of Arrival}
     \endentry
+    \entry{9981228}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cdc6ac75a5278441313b31dd8f3a4f77}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={Georgios\bibnamedelima D.},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7f066535bd17d9701c82ef4f703223c}
+      \strng{fullhash}{d7f066535bd17d9701c82ef4f703223c}
+      \field{labelalpha}{FSD22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
+      \field{title}{FSM: Correspondenceless scan-matching of panoramic 2D range scans}
+      \field{year}{2022}
+      \field{pages}{6968\bibrangedash 6975}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS47612.2022.9981228
+      \endverb
+      \keyw{Laser radar;Fourier transforms;Source coding;Measurement uncertainty;Robustness;Real-time systems;Intelligent sensors;Scan-matching;localisation;panoramic LIDAR}
+    \endentry
+    \entry{Filotheou2022a}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=ec31f59f041f30c77205eb2bf5fcd3d8}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={George},
+           given_i={G\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbc9b41831f6920f83f41f2677a07c34}
+      \strng{fullhash}{fbc9b41831f6920f83f41f2677a07c34}
+      \field{labelalpha}{Fil+22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{Passive Global Localisation of Mobile Robot via 2D Fourier-Mellin Invariant Matching}}
+      \field{volume}{104}
+      \field{year}{2022}
+      \field{pages}{26}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10846-021-01535-7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10846-021-01535-7
+      \endverb
+    \endentry
+    \entry{FILOTHEOU2023100288}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=1d5d14c93d0ae2e2c6c2fc7369cc886e}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas\bibnamedelima L.},
+           given_i={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=cdc6ac75a5278441313b31dd8f3a4f77}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={Georgios\bibnamedelima D.},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5324fed1af77817351316ad7f7fa8cde}
+      \strng{fullhash}{5324fed1af77817351316ad7f7fa8cde}
+      \field{labelalpha}{Fil+23}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2590-0056}
+      \field{journaltitle}{Array}
+      \field{title}{Correspondenceless scan-to-map-scan matching of 2D panoramic range scans}
+      \field{volume}{18}
+      \field{year}{2023}
+      \field{pages}{100288}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.array.2023.100288
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2590005623000139
+      \endverb
+      \keyw{Robot localisation,Panoramic 2D LIDAR,Scan-to-map-scan matching}
+    \endentry
+    \entry{10160120}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=fd61ba9b064778b80379b79db13fa20d}{%
+           family={Chatzistefanou},
+           family_i={C\bibinitperiod},
+           given={Aristidis\bibnamedelima Raptopoulos},
+           given_i={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b80b6c4ddde7371c0051003de3deafea}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos\bibnamedelima V.},
+           given_i={T\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{373a4c658a4867bb12e5e05b8a5fae78}
+      \strng{fullhash}{373a4c658a4867bb12e5e05b8a5fae78}
+      \field{labelalpha}{Tzi+23}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Radio Frequency Identification}
+      \field{title}{Real-Time Global Localization of a Mobile Robot by Exploiting RFID Technology}
+      \field{volume}{7}
+      \field{year}{2023}
+      \field{pages}{486\bibrangedash 506}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1109/JRFID.2023.3288982
+      \endverb
+      \keyw{Robots;Phase measurement;Robot sensing systems;Location awareness;Antenna measurements;Mobile robots;Trajectory;Radio frequency identification;RFID;robot tracking;global localization;synthetic aperture;nonlinear optimization;phase unwrapping;robotics;odometry}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
