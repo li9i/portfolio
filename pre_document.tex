@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,twoside]{book}
+\documentclass[10pt,a4paper,twoside]{book}
 \usepackage[all,defaultlines=3]{nowidow}
 \usepackage[top=30mm, bottom=30mm, inner=30mm, outer=30mm, footskip = 15mm]{geometry}
 
@@ -16,7 +16,7 @@
 % https://tex.stackexchange.com/questions/483722/how-to-set-a-font-everywhere-including-math-mode-in-xelatex
 %\usepackage{mathspec}
 
-\usepackage{fontspec,xgreek,polyglossia}
+\usepackage{fontspec,polyglossia}
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text]{CMU Serif} % choose a font that supports greek characters
 \setdefaultlanguage{english}
@@ -424,4 +424,23 @@
   \def\@fs@post{\kern2pt\hrule\relax}%
   \def\@fs@mid{\kern2pt\hrule\kern2pt}%
   \let\@fs@iftopcapt\iftrue}
+\makeatother
+
+% Remove "Chapter N" from chapter beginning
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \interlinepenalty\@M
+    \Large \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+\def\@makeschapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Large \bfseries  #1\par\nobreak
+    \vskip 40\p@
+  }}
 \makeatother

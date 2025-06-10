@@ -1,11 +1,12 @@
-\subsection{CultureID: Internet of Things, Robotics, Big Data, AI in Culture}
+\chapter{CultureID: Internet of Things, Robotics, Big Data, AI in Culture (T2EDK-02000)}
 
-\noindent Context: Project co-financed by EU and Greek National Funds, under the call RESEARCH - CREATE -INNOVATE (project code: T2EDK-02000)\\
-\noindent Aristotle University of Thessaloniki, Greece\\
-\noindent Duration: 09/2020--09/2023\\
+\begin{itemize}\small
+  \item Co-financed by EU and Greek National Funds, under the call RESEARCH - CREATE -INNOVATE \vspace{-1em}
+  \item Aristotle University of Thessaloniki, Greece \vspace{-1em}
+  \item Duration: 2020/09--2023/09
+\end{itemize}
 
-\noindent \textbf{In a nutshell}\\
-\noindent \href{https://cultureid.web.auth.gr/?page_id=216&lang=en}{\texttt{[Website]}} \href{https://www.facebook.com/cultureID.Auth}{\texttt{[fb]}} \href{https://www.youtube.com/@cultureidproject}{\texttt{[Videos]}} \href{https://cultureid.web.auth.gr/?page_id=490}{\texttt{[Publications]}} \href{https://github.com/cultureid-auth-ros-packages}{\texttt{[Public code]}} \href{https://www.lifo.gr/now/tech-science/arhaiologiko-moyseio-thessalonikis-ena-rompot-tha-syzita-me-toys-episkeptes}{\texttt{[Press]}}\\
+\noindent \textbf{In a nutshell}: \href{https://cultureid.web.auth.gr/?page_id=216&lang=en}{\texttt{[website]}} \href{https://www.facebook.com/cultureID.Auth}{\texttt{[fb]}} \href{https://www.youtube.com/@cultureidproject}{\texttt{[videos]}} \href{https://cultureid.web.auth.gr/?page_id=490}{\texttt{[publications]}} \href{https://github.com/cultureid-auth-ros-packages}{\texttt{[public code]}} \href{https://www.lifo.gr/now/tech-science/arhaiologiko-moyseio-thessalonikis-ena-rompot-tha-syzita-me-toys-episkeptes}{\texttt{[press]}}\\
 
 
 \begin{figure}[H]\centering
@@ -15,18 +16,55 @@
   \label{fig:cultureid_indy}
 \end{figure}
 
-Among other things the project developed a social robot---Indy!---with the
+The project developed a social robot, Indy!, with the
 explicit intent of bridging cultural facts, artefacts, works of art, and
 general knowledge---over to the audience of a museum: in particular that of the
-Archaeological Museum of Thessaloniki (AMTh), Greece. Specifically, I, in
-partnership with the project's partners and our team's members, thought,
-designed, implemented, deployed, and refined the systems concerning the two
-activities that the robot was tasked to hold in the museum: (a) playing games
-while acting as the game master with students whose school pays visit to the
-museum, and (b) acting as a tour guide for specific displayed artefacts.
+Archaeological Museum of Thessaloniki (AMTh), Greece. Specifically, in
+partnership with the project's partners and our team's members, I thought,
+designed, implemented, deployed, tested, and refined the systems concerning the
+two activities that the robot was tasked to hold in the museum: (a) playing
+games while acting as the game master with students whose school pays visit to
+the museum, and (b) acting as a tour guide for specific displayed artefacts.
+
+\begin{figure}[H]\centering
+  \includegraphics[scale=0.35]{images/cultureid/omg1.jpg}
+  \caption{\small From front to back and left to right: the Deputy Head of the
+           Region of Thessaloniki, the Deputy Minister for Macedonia and Thrace,
+           the President of the Hellenic Republic, Dr Aggeliki Moneda, Dr
+           Antonios Dimitriou, and Dr Stavroula Siachalos. The latter three
+           belong to CultureID's organisational and administration team.
+           Dr Dimitriou was the project's coordinator. The event was the
+           celebration of the Archaeological Museum's sixtieth birthday, in
+           which CultureID was invited to contribute with its objective and
+           results.  Source: \url{https://shorturl.at/tzMT2}}
+  \label{fig:cultureid_omg1}
+\end{figure}
+\begin{figure}[H]\centering
+  \includegraphics[scale=0.2]{images/cultureid/omg2.jpg}
+  \caption{\small From left to right: CultureID's coordinator, Indy, the Deputy
+           Head of the Region of Thessaloniki, Dr Stavroula Siachalos, Dr
+           Aggeliki Moneda, the Deputy Head of Digital Governance for the
+           Region of Central Macedonia, and Ms. Mariana Politou, at the
+           celebration of the Archaeological Museum of Thessaloniki's sixtieth
+           birthday}
+  \label{fig:cultureid_omg2}
+\end{figure}
 
 
-\subsubsection{Playing games with pupils}
+
+
+\section{Videos of key project aspects}
+
+\begin{itemize}
+  \singlespacing
+  \item \href{https://www.youtube.com/watch?v=SOA0To077WQ}{CultureID in 80 seconds}
+  \item \href{https://www.youtube.com/watch?v=2EvTGNOqTrs}{Games with the Robot in the Museum}
+  \item \href{https://www.youtube.com/watch?v=mrTL3Gep7Xk}{Talking with the robot of the Archaeological Museum of Thessaloniki}
+  \item \href{https://www.youtube.com/watch?v=i5CUBswHWf0}{Recording of the project's final scientific symposium}
+\end{itemize}
+
+
+\section{Details}
 
 The actual contents of the games, regardless of the nature of the game master
 were expertly crafted by Dr (of Education) Sofia Pliasa. The games focused
@@ -48,7 +86,7 @@ playing this type of game you are describing when an static computer could
 perform the same task?" The first difference is that the robot cheered on
 groups of pupils by executing dance maneuvers while singing
 appropriately-chosen songs. The second was that the game was not concentrated
-in one region of the museum, but it was designed to be highly extensible,
+in one region of the museum, but it was designed to be extensible,
 meaning that it could be (and actually was) possible to navigate between
 regions around which games were played.
 
@@ -101,8 +139,6 @@ regarding their experience playing games with the project's social robot.
 \end{figure}
 
 
-
-\subsubsection{Tour guide}
 The second functionality of Indy was acting as a tour guide. The role of the
 robot was to sit besides three important artefacts and interact with visitors
 when they asked her for further details. In a nutshell, three main datasets
@@ -110,53 +146,16 @@ were developed, one pertaining exactly to each artefact, with the expert help
 of the Museum's archaeologists. Then rasa was built around these scenarios. The
 text-to-speech and speech-to-text was handled by Google. Sound was captured via
 a panoramic microphone array, which was specifically chosen with conversation
-in mind. \\
-
-
-\noindent Key project aspects are succinctly portrayed through the following videos:
-
-\begin{itemize}
-  \singlespacing
-  \item \href{https://www.youtube.com/watch?v=SOA0To077WQ}{CultureID in 80 seconds}
-  \item \href{https://www.youtube.com/watch?v=2EvTGNOqTrs}{Games with the Robot in the Museum}
-  \item \href{https://www.youtube.com/watch?v=mrTL3Gep7Xk}{Talking with the robot of the Archaeological Museum of Thessaloniki}
-  \item \href{https://www.youtube.com/watch?v=i5CUBswHWf0}{Recording of the project's final scientific symposium}
-\end{itemize}
-
-
-
-
-\begin{figure}[H]\centering
-  \includegraphics[scale=0.35]{images/cultureid/omg1.jpg}
-  \caption{\small From front to back and left to right: the Deputy Head of the
-           Region of Thessaloniki, the Deputy Minister for Macedonia and Thrace,
-           the President of the Hellenic Republic, Dr Aggeliki Moneda, Dr
-           Antonios Dimitriou, and Dr Stavroula Siachalos. The latter three
-           belong to CultureID's organisational and administration team.
-           Dr Dimitriou was the project's coordinator. The event was the
-           celebration of the Archaeological Museum's sixtieth birthday, in
-           which CultureID was invited to contribute with its objective and
-           results.  Source: \url{https://shorturl.at/tzMT2}}
-  \label{fig:cultureid_omg1}
-\end{figure}
-\begin{figure}[H]\centering
-  \includegraphics[scale=0.2]{images/cultureid/omg2.jpg}
-  \caption{\small From left to right: CultureID's coordinator, Indy, the Deputy
-           Head of the Region of Thessaloniki, Dr Stavroula Siachalos, Dr
-           Aggeliki Moneda, the Deputy Head of Digital Governance for the
-           Region of Central Macedonia, and Ms. Mariana Politou, at the
-           celebration of the Archaeological Museum of Thessaloniki's sixtieth
-           birthday}
-  \label{fig:cultureid_omg2}
-\end{figure}
+in mind.
 
 
 You may find an extensive briefing of all of the project's objectives,
 applications, advantages and more at its website:
 \url{http://cultureid.web.auth.gr/}.
 
+\section{Outcomes}
 
 \begin{itemize}
-  \item Notions/resources/tools used: \texttt{ROS}, Linux, Hokuyo LIDAR, RPLIDAR, 2D/3D SLAM, Depth ASTRA Cameras, \texttt{amcl}, \texttt{git}, Impinj R420 RFID Reader
-\item Publications resulted from this work: \cite{8739423,8739486,Filotheou2020a,9109328,9244904,Filotheou2020b,9566425,9617436}
+  \item Notions/resources/tools used: \texttt{ROS} (kinetic), Linux (Ubuntu 16.04 LTS), Hokuyo LIDAR (UST-10LX), RPLIDAR A3 (panoramic), 2D/3D SLAM, Depth ASTRA Cameras, localisation particle filter \texttt{amcl}, ROS autonomous navigation stack, \texttt{git}, RFID Reader Impinj R420
+\item Publications authored or coauthored as a direct or indirect result of this project: \cite{8739423,8739486,Filotheou2020a,9109328,9244904,Filotheou2020b,9566425,9617436}
 \end{itemize}
