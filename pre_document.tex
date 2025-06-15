@@ -444,3 +444,16 @@
     \vskip 40\p@
   }}
 \makeatother
+%
+%\usepackage{titlesec}[nostruts]
+%\titleformat{\chapter}[display]{\huge}{}{1ex}{}{}
+%\titlespacing{\chapter}{0pt}{0pt}{0pt}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@makechapterhead}{\vspace*{50\p@}}{\vspace*{-70\p@}}{}{}
+\makeatother
+
+% mini toc / toc per chapter etc
+\usepackage{minitoc}
+\dominitoc

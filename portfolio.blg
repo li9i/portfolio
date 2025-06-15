@@ -1,0 +1,20 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'portfolio.blg'
+[79] biber:340> INFO - === Sun Jun 15, 2025, 19:37:23
+[94] Biber.pm:419> INFO - Reading 'portfolio.bcf'
+[158] Biber.pm:979> INFO - Found 14 citekeys in bib section 0
+[171] Biber.pm:4419> INFO - Processing section 0
+[181] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[183] bibtex.pm:1713> INFO - LaTeX decoding ...
+[203] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[443] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[444] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[444] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[444] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[480] bbl.pm:660> INFO - Writing 'portfolio.bbl' with encoding 'UTF-8'
+[490] bbl.pm:763> INFO - Output to portfolio.bbl
+[490] Biber.pm:131> WARN - legacy month field 'feb' in entry 'Filotheou2022a' is not an integer - this will probably not sort properly.
+[490] Biber.pm:131> WARN - legacy month field 'jun' in entry 'Filotheou2020a' is not an integer - this will probably not sort properly.
+[490] Biber.pm:131> WARN - legacy month field 'jun' in entry 'Filotheou2018' is not an integer - this will probably not sort properly.
+[490] Biber.pm:131> WARN - legacy month field 'jun' in entry 'Filotheou2020' is not an integer - this will probably not sort properly.
+[490] Biber.pm:133> INFO - WARNINGS: 4

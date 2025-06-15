@@ -1,22 +1,27 @@
 \chapter{RELIEF: Intelligent Repeaters and Robots for Fast, Reliable, Low-Cost RFID Inventorying \& Localization (T1EDK-03032)}
 
+\vspace{-1cm}
+\minitoc
+
+\section{Summary}
+
+
 \begin{itemize} \small
   \item Co-financed by EU and Greek National Funds, under the call RESEARCH - CREATE -INNOVATE \vspace{-1em}
   \item Aristotle University of Thessaloniki, Greece \vspace{-1em}
-  \item Duration: 2018/09--2021/09
+  \item 2018/09--2021/09 \vspace{-1em}
+  \item \href{http://relief.web.auth.gr/language/en/home/}{\texttt{[website]}} \href{https://www.facebook.com/ReliefAuth}{\texttt{[fb]}} \href{https://www.youtube.com/@antonidimi/search?query=relief}{\texttt{[videos]}} \href{https://relief.web.auth.gr/language/en/publications/}{\texttt{[publications]}} \href{https://github.com/relief-auth-ros-packages}{\texttt{[public code]}}
 \end{itemize}
-
-\noindent \textbf{In a nutshell}: \href{http://relief.web.auth.gr/language/en/home/}{\texttt{[website]}} \href{https://www.facebook.com/ReliefAuth}{\texttt{[fb]}} \href{https://www.youtube.com/@antonidimi/search?query=relief}{\texttt{[videos]}} \href{https://relief.web.auth.gr/language/en/publications/}{\texttt{[publications]}} \href{https://github.com/relief-auth-ros-packages}{\texttt{[public code]}}\\
-
 
 \begin{figure}[H]\centering
   \includegraphics[scale=0.4]{images/relief_1.png}
-  \caption{\small Left: RELIEF's heavyweight autonomous ground vehicle at the
-           Beyond Expo 2021 and a collection of RFID-tagged typical supermarket
-           products. Right: the robot's reconstructed map of
-           the products in physical space}
+  \caption{\small The robot's purpose is to localise RFID-tagged objects in
+           physical space in real time. Left: A supermarket warehouse use case:
+           RELIEF's heavyweight autonomous ground vehicle and a collection of RFID-tagged typical supermarket products
+           behind it. Right: the reconstructed maps of products and of the physical space. Beyond Expo 2021}
   \label{fig:relief_beyond_1}
 \end{figure}
+
 
 \textbf{Motivation}: Inventorying and localisation of products in large warehouses is constrained by
 the accuracy, precision, and stamina of focus of human-led efforts. If RFID
@@ -38,6 +43,28 @@ The means of achieving these goals were three Autonomous Unmanned Robotic Vehicl
         \href{https://www.youtube.com/watch?v=9YpBIaO4tgY}{Autonomous Unmanned Aerial Vehicle}:
         a modified Italdron Evo 4HSE (figure \ref{fig:relief_drone})
 \end{itemize}
+
+\section{My contribution}
+I did research on methods and algorithms contained within the concept of
+autonomous navigation, and on localisation with LIDAR sensors (particle
+filters, pose tracking, global localisation, LIDAR odometry, pose estimate
+error reduction). At the same time I was the sole developer/maintainer/handler
+for everything related with the robots especially when seen from the SW
+perspective: integrating, configuring, and testing SLAM algorithms (progressive
+mapping and simultaneous self-localisation), localisation after SLAM,
+autonomous navigation; creating GUIs for simplified task execution by
+third-parties; assisting PhD students to conduct their experiments with robots
+using special RFID equipment; integrating RFID-related algorithms onto the
+robot and then in tandem with the robot's packages.
+
+\section{Outcomes}
+
+\begin{itemize}
+  \item Notions/resources/tools used: \texttt{ROS} (kinetic), Linux (Ubuntu 16.04 LTS), Hokuyo LIDAR (UTM-30LX, UST-10LX), 2D/3D SLAM (openkarto, gmapping, cartographer, rtabmap), Depth ASTRA Cameras, localisation particle filter \texttt{amcl}, ROS autonomous navigation stack, \texttt{git}, RFID Reader Impinj R420
+  \item Publications authored or coauthored as a direct or indirect result of this project: \cite{9617436,Filotheou2022a,FILOTHEOU2023100288,10160120,9981228}
+\end{itemize}
+
+\newpage
 
 \section{Press coverage (Greek only)}
 
@@ -144,10 +171,3 @@ Expo in 2021.
 You may find an extensive briefing of all of the project's objectives,
 applications, advantages and more at its website:
 \url{http://relief.web.auth.gr/}.
-
-\section{Outcomes}
-
-\begin{itemize}
-  \item Notions/resources/tools used: \texttt{ROS} (kinetic), Linux (Ubuntu 16.04 LTS), Hokuyo LIDAR (UTM-30LX, UST-10LX), 2D/3D SLAM (openkarto, gmapping, cartographer, rtabmap), Depth ASTRA Cameras, localisation particle filter \texttt{amcl}, ROS autonomous navigation stack, \texttt{git}, RFID Reader Impinj R420
-  \item Publications authored or coauthored as a direct or indirect result of this project: \cite{9617436,Filotheou2022a,FILOTHEOU2023100288,10160120,9981228}
-\end{itemize}
