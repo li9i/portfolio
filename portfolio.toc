@@ -3,38 +3,44 @@
 \selectlanguage *{english}
 \contentsline {part}{I\hspace {1em}Research Projects with Emphasis on Robotics}{5}{part.1}%
 \contentsline {xpart}{Research Projects with Emphasis on Robotics}{7}{part.1}%
-\contentsline {chapter}{\numberline {1}RELIEF: Intelligent Repeaters and Robots for Fast, Reliable, Low-Cost RFID Inventorying \& Localization (T1EDK-03032)}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {1}RoBétArmé: Robots for rebar repair and shotcreting}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Summary}{7}{section.1.1}%
 \contentsline {section}{\numberline {1.2}My contribution}{8}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Outcomes}{8}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Press coverage (Greek only)}{9}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Videos of key project aspects}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Details}{8}{section.1.5}%
+\contentsline {chapter}{\numberline {2}CULTUREID: A robot in a museum}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Summary}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}My contribution}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Videos of key project aspects}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Details}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Outcomes}{15}{section.2.5}%
+\contentsline {chapter}{\numberline {3}RELIEF: Robots for localisation of RFIDs}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Summary}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}My contribution}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Outcomes}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Press coverage (Greek only)}{19}{section.3.4}%
 \selectlanguage *{greek}
 \selectlanguage *{english}
 \selectlanguage *{english}
-\contentsline {section}{\numberline {1.5}Videos of key project aspects}{9}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Details}{10}{section.1.6}%
-\contentsline {chapter}{\numberline {2}CultureID: Internet of Things, Robotics, Big Data, AI in Culture (T2EDK-02000)}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Summary}{15}{section.2.1}%
-\contentsline {section}{\numberline {2.2}My contribution}{16}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Videos of key project aspects}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Details}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Outcomes}{21}{section.2.5}%
-\contentsline {part}{II\hspace {1em}Control Projects}{23}{part.2}%
-\contentsline {xpart}{Control Projects}{25}{part.2}%
-\contentsline {chapter}{\numberline {3}Robust Decentralized Control of Cooperative Multi-robot Systems}{25}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Tracking the circumference of a circle with a RC car}{27}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Tracking the centerline of a lane with a RC car}{29}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Balancing a segway}{31}{chapter.6}%
-\contentsline {part}{III\hspace {1em}Estimation Projects}{33}{part.3}%
-\contentsline {xpart}{Estimation Projects}{35}{part.3}%
-\contentsline {chapter}{\numberline {7}How one detects vehicles violating the speed limit when all one has is a stationary camera}{35}{chapter.7}%
-\contentsline {part}{IV\hspace {1em}Computer Vision Projects}{37}{part.4}%
-\contentsline {xpart}{Computer Vision Projects}{39}{part.4}%
-\contentsline {chapter}{\numberline {8}Hole detection via RGB-D camera within the RoboCup Rescue competition}{39}{chapter.8}%
-\contentsline {part}{V\hspace {1em}Machine Learning Projects}{41}{part.5}%
-\contentsline {xpart}{Machine Learning Projects}{43}{part.5}%
-\contentsline {chapter}{\numberline {9}Multi-label classification using Learning Classifier Systems}{43}{chapter.9}%
-\contentsline {part}{VI\hspace {1em}Other}{45}{part.6}%
-\contentsline {xpart}{Other}{47}{part.6}%
-\contentsline {chapter}{\numberline {10}Play Simon with a Raspberry Pi}{47}{chapter.10}%
+\contentsline {section}{\numberline {3.5}Videos of key project aspects}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Details}{20}{section.3.6}%
+\contentsline {part}{II\hspace {1em}Control Projects}{25}{part.2}%
+\contentsline {xpart}{Control Projects}{27}{part.2}%
+\contentsline {chapter}{\numberline {4}Robust Decentralized Control of Cooperative Multi-robot Systems}{27}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Tracking the circumference of a circle with a RC car}{29}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Tracking the centerline of a lane with a RC car}{31}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Balancing a segway}{33}{chapter.7}%
+\contentsline {part}{III\hspace {1em}Estimation Projects}{35}{part.3}%
+\contentsline {xpart}{Estimation Projects}{37}{part.3}%
+\contentsline {chapter}{\numberline {8}Car speedtrap via stationary camera}{37}{chapter.8}%
+\contentsline {part}{IV\hspace {1em}Computer Vision Projects}{39}{part.4}%
+\contentsline {xpart}{Computer Vision Projects}{41}{part.4}%
+\contentsline {chapter}{\numberline {9}Detecting holes on walls for RoboCup}{41}{chapter.9}%
+\contentsline {part}{V\hspace {1em}Machine Learning Projects}{43}{part.5}%
+\contentsline {xpart}{Machine Learning Projects}{45}{part.5}%
+\contentsline {chapter}{\numberline {10}Multi-label classification using Learning Classifier Systems}{45}{chapter.10}%
+\contentsline {part}{VI\hspace {1em}Other}{47}{part.6}%
+\contentsline {xpart}{Other}{49}{part.6}%
+\contentsline {chapter}{\numberline {11}Play Simon with a Raspberry Pi}{49}{chapter.11}%
 \xpginauxfilefalse 
