@@ -16,31 +16,63 @@
 
 \begin{figure}[H]\centering
   \includegraphics[scale=1.0]{images/robetarme/robetarme_intro.png}
-  \caption{\small The project aims to develop automated standalone or assisting
-           solutions during rebar repair and shotcreting}
+  \caption{\small The project aims to develop automated---standalone or
+           assisting---solutions in the construction domain, specifically for
+           (a) rebar repair and (b) shotcreting}
   \label{fig:robetarme_intro}
 \end{figure}
 
 \textbf{Motivation}: According to the World Economic Forum, the construction
-industry currently accounts for about $6\%$ of the world gross domestic product
-(GDP) and is expected to reach around $14.7\%$ in $2030$. Analogous to the
+industry accounted for about $6\%$ of the world gross domestic product in
+$2022$ and is expected to reach around $14.7\%$ in $2030$. Analogous to
 Industry 4.0, breakthrough technologies have been adapted for construction
-applications; this transformation has been called as Construction 4.0.
-RoBétArmé aims toward a step-change in Construction 4.0 by automating
-particularly laborious construction tasks in all phases of shotcrete
-application. To this end RoBétArmé will deliver collaborative construction
-mobile manipulators, consisting of (a) Inspection Reconnaissance robot (IRR) to
-address fast, high precision modeling and rebar reinforcement through metal
-additive manufacturing and (b) a Shotcrete and Finishing mobile robot (SFR) to
-address autonomous shotcrete application and surface finishing.
+applications; RoBétArmé aims toward a step-change in Construction 4.0 by
+automating laborious tasks in all phases of shotcrete application. To this end
+RoBétArmé will deliver collaborative construction mobile manipulators,
+consisting of (a) a Inspection Reconnaissance robot (IRR) to address fast, high
+precision modeling and rebar reinforcement through metal additive manufacturing
+and (b) a Shotcrete and Finishing mobile robot (SFR) to address autonomous
+shotcrete application and surface finishing.
 
 \section{My contribution}
 
 In RoBétArmé my contribution was in principle twofold:
 \begin{itemize}
-  \item I led and executed task \textit{T4.6 Task Planning and Site Orchestration}
+  \item I led and executed task \textit{T4.6 - Task Planning and Site Orchestration}
   \item I led and conducted the project's total software integration
 \end{itemize}
+
+Specifically, Behaviour Trees\footnote{In C++ via BehaviorTree.CPP:
+\url{https://github.com/BehaviorTree/BehaviorTree.CPP}} were used to plan and
+order the sequence of events prescribed by the project's use cases. ROS 2
+Humble packages for planning tasks in specific machines were then designed.
+These have the explicit purpose of interacting between the consortium partners'
+own ROS packages and a higher authority called "site orchestrator". The site
+orchestrator is executed in a central control unit and has the role of
+triggering the task planners specific to computation machines, which in turn
+trigger leaf nodes. Subsequently nodes designed to act as templates of nodes
+for partners to use as interfaces between task T4.6's task planners and their
+own nodes were implemented in \texttt{rclcpp}, \texttt{rclpy}, \texttt{roscpp},
+and \texttt{rospy}, thoroughly refined through testing, and then documented
+both in a developer's manual manner and for the benefit of the task's own
+deliverable report. These and helper packages (e.g. for executing arbitrary
+code which is not expressed in ROS) were enclosed in a Docker image where,
+during building, lint tests and behaviour trees xml test were held in order to
+guarantee execution integrity.
+
+For integration, Docker base images were constructed for ROS noetic, ROS
+melodic, and ROS 2 humble, and disseminated to the consortium's partners.
+Template Docker images for the same ROS distributions were also crafted and
+disseminated in order for partners to devote more time to the development of
+their functionality and less time wrapping it into Docker, as some were not
+familiar with Docker. The rationale here is that since a complete transition to
+ROS 2 is impossible for some partners, both ROS versions should be supported.
+This also meant that support for interfacing these two distributions should be
+given; this included also the support for custom interfaces (msgs and
+srvs---actions are unbridgeable till today). Git repositories were set up in
+GitLab and so were CI/CD pipelines so that images were immediately built and
+pushed to a custom container registry.
+
 
 You may find an extensive briefing of all of the project's objectives,
 applications, advantages and more at its website:

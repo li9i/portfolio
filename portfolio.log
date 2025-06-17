@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.6.10)  16 JUN 2025 21:14
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.6.10)  17 JUN 2025 22:58
  restricted system commands enabled.
 **portfolio.tex
 (./portfolio.tex
@@ -738,10 +738,10 @@ File: gloss-greek.ldf polyglossia: module for Greek
 Module polyglossia Info: Language data for greek
 (polyglossia)            righthyphenmin	1
 (polyglossia)            hyphenation	
-(polyglossia)            lefthyphenmin	1
 (polyglossia)            synonyms	polygreek
-(polyglossia)            loader	loadhyph-el-polyton.tex
-(polyglossia)            patterns	hyph-el-polyton.pat.txt on input line 21
+(polyglossia)            patterns	hyph-el-polyton.pat.txt
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            loader	loadhyph-el-polyton.tex on input line 21
 Module polyglossia Info: Language greek was not yet loaded; created with id 2 on
  input line 21
 
@@ -749,10 +749,10 @@ Module polyglossia Info: Language greek was not yet loaded; created with id 2 on
 Module polyglossia Info: Language data for monogreek
 (polyglossia)            righthyphenmin	1
 (polyglossia)            hyphenation	
-(polyglossia)            lefthyphenmin	1
 (polyglossia)            synonyms	
-(polyglossia)            loader	loadhyph-el-monoton.tex
-(polyglossia)            patterns	hyph-el-monoton.pat.txt on input line 147
+(polyglossia)            patterns	hyph-el-monoton.pat.txt
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            loader	loadhyph-el-monoton.tex on input line 147
 Module polyglossia Info: Language monogreek was not yet loaded; created with id 
 3 on input line 147
 Package polyglossia Info: Option: Greek, variant=monotonic.
@@ -1990,23 +1990,22 @@ LaTeX Info: Redefining \rmfamily on input line 25.
 LaTeX Info: Redefining \sffamily on input line 25.
 LaTeX Info: Redefining \ttfamily on input line 25.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng
-luaotfload | aux : font no 73 (nil) defines no feature for script latn with lang
-uage eng
-luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [3])
+uage eng)
 \tf@toc=\write7
 
 \openout7 = portfolio.toc
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [4]
+uage eng [3]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage eng [4
+
+]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng [5
-
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2098,7 +2097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/robetarme/robetarme_intro.png, id=130, 332.442pt x 277.2759pt>
+<images/robetarme/robetarme_intro.png, id=129, 332.442pt x 277.2759pt>
 File: images/robetarme/robetarme_intro.png Graphic file (type png)
 <use images/robetarme/robetarme_intro.png>
 Package luatex.def Info: images/robetarme/robetarme_intro.png  used on input li
@@ -2118,6 +2117,29 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
+luaotfload | aux : font no 109 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 42 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 129 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Font Info:    Font shape `TU/CMUSerif(0)/m/sl' in size <10> not available
+
+(Font)              Font shape `TU/CMUSerif(0)/m/it' tried instead on input lin
+e 75.
+ [8]
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2148,12 +2170,11 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng)
 (./sections/06.research_projects/02.tex
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng
-LaTeX Font Info:    Font shape `TU/CMUSerif(0)/m/sl' in size <10> not available
+uage eng [9]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage eng [10
 
-(Font)              Font shape `TU/CMUSerif(0)/m/it' tried instead on input lin
-e 1.
- [8]
+]
 Chapter 2.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
@@ -2229,21 +2250,21 @@ luaotfload | aux : font no 87 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 87 (nil) defines no feature for script latn with lang
 uage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/indy_at_museum.jpg, id=167, 903.375pt x 1606.0pt>
+<images/cultureid/indy_at_museum.jpg, id=179, 903.375pt x 1606.0pt>
 File: images/cultureid/indy_at_museum.jpg Graphic file (type jpg)
 <use images/cultureid/indy_at_museum.jpg>
 Package luatex.def Info: images/cultureid/indy_at_museum.jpg  used on input lin
@@ -2254,14 +2275,12 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [9
-
-<./images/cultureid/indy_at_museum.jpg>]
+uage eng [11<./images/cultureid/indy_at_museum.jpg>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/omg1.jpg, id=179, 1280.785pt x 852.18375pt>
+<images/cultureid/omg1.jpg, id=192, 1280.785pt x 852.18375pt>
 File: images/cultureid/omg1.jpg Graphic file (type jpg)
 <use images/cultureid/omg1.jpg>
 Package luatex.def Info: images/cultureid/omg1.jpg  used on input line 50.
@@ -2273,13 +2292,13 @@ Overfull \hbox (21.49011pt too wide) in paragraph at lines 50--59
 
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/omg2.jpg, id=182, 2055.68pt x 1541.76pt>
+<images/cultureid/omg2.jpg, id=195, 2055.68pt x 1541.76pt>
 File: images/cultureid/omg2.jpg Graphic file (type jpg)
 <use images/cultureid/omg2.jpg>
 Package luatex.def Info: images/cultureid/omg2.jpg  used on input line 63.
@@ -2287,7 +2306,7 @@ Package luatex.def Info: images/cultureid/omg2.jpg  used on input line 63.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [10<./images/cultureid/omg1.jpg>]
+uage eng [12<./images/cultureid/omg1.jpg>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2301,10 +2320,10 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [11<./images/cultureid/omg2.jpg>]
+uage eng [13<./images/cultureid/omg2.jpg>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/sc4.png, id=201, 1027.84pt x 602.25pt>
+<images/cultureid/sc4.png, id=213, 1027.84pt x 602.25pt>
 File: images/cultureid/sc4.png Graphic file (type png)
 <use images/cultureid/sc4.png>
 Package luatex.def Info: images/cultureid/sc4.png  used on input line 112.
@@ -2313,7 +2332,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/sc8.png, id=202, 1027.84pt x 602.25pt>
+<images/cultureid/sc8.png, id=214, 1027.84pt x 602.25pt>
 File: images/cultureid/sc8.png Graphic file (type png)
 <use images/cultureid/sc8.png>
 Package luatex.def Info: images/cultureid/sc8.png  used on input line 120.
@@ -2322,7 +2341,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/sc2.png, id=203, 1027.84pt x 602.25pt>
+<images/cultureid/sc2.png, id=215, 1027.84pt x 602.25pt>
 File: images/cultureid/sc2.png Graphic file (type png)
 <use images/cultureid/sc2.png>
 Package luatex.def Info: images/cultureid/sc2.png  used on input line 128.
@@ -2330,10 +2349,10 @@ Package luatex.def Info: images/cultureid/sc2.png  used on input line 128.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [12<./images/cultureid/sc4.png>]
+uage eng [14<./images/cultureid/sc4.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/indy_kids_0.jpg, id=211, 590.205pt x 402.00188pt>
+<images/cultureid/indy_kids_0.jpg, id=223, 590.205pt x 402.00188pt>
 File: images/cultureid/indy_kids_0.jpg Graphic file (type jpg)
 <use images/cultureid/indy_kids_0.jpg>
 Package luatex.def Info: images/cultureid/indy_kids_0.jpg  used on input line 1
@@ -2348,7 +2367,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/indy_kids_1.jpg, id=212, 590.95781pt x 322.95656pt>
+<images/cultureid/indy_kids_1.jpg, id=224, 590.95781pt x 322.95656pt>
 File: images/cultureid/indy_kids_1.jpg Graphic file (type jpg)
 <use images/cultureid/indy_kids_1.jpg>
 Package luatex.def Info: images/cultureid/indy_kids_1.jpg  used on input line 1
@@ -2362,10 +2381,10 @@ Overfull \hbox (45.97552pt too wide) in paragraph at lines 146--148
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [13<./images/cultureid/sc8.png><./images/cultureid/sc2.png>]
+uage eng [15<./images/cultureid/sc8.png><./images/cultureid/sc2.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/cultureid/indy_kids_2.jpg, id=222, 586.44093pt x 320.69812pt>
+<images/cultureid/indy_kids_2.jpg, id=234, 586.44093pt x 320.69812pt>
 File: images/cultureid/indy_kids_2.jpg Graphic file (type jpg)
 <use images/cultureid/indy_kids_2.jpg>
 Package luatex.def Info: images/cultureid/indy_kids_2.jpg  used on input line 1
@@ -2379,7 +2398,7 @@ Overfull \hbox (42.36201pt too wide) in paragraph at lines 152--154
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [14<./images/cultureid/indy_kids_0.jpg><./images/cultureid/indy_kids_1.
+uage eng [16<./images/cultureid/indy_kids_0.jpg><./images/cultureid/indy_kids_1.
 jpg>]
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng
@@ -2403,9 +2422,9 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng)
 (./sections/06.research_projects/01.tex
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [15<./images/cultureid/indy_kids_2.jpg>]
+uage eng [17<./images/cultureid/indy_kids_2.jpg>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [16
+uage eng [18
 
 ]
 Chapter 3.
@@ -2493,19 +2512,19 @@ luaotfload | aux : font no 87 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 87 (nil) defines no feature for script latn with lang
 uage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
-luaotfload | aux : font no 130 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/relief_1.png, id=265, 1003.75pt x 669.50125pt>
+<images/relief_1.png, id=277, 1003.75pt x 669.50125pt>
 File: images/relief_1.png Graphic file (type png)
 <use images/relief_1.png>
 Package luatex.def Info: images/relief_1.png  used on input line 17.
@@ -2515,7 +2534,7 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [17<./images/relief_1.png>]
+uage eng [19<./images/relief_1.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2545,7 +2564,7 @@ guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [18]
+uage eng [20]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 
@@ -2628,7 +2647,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/relief/tb/tb_1x4.png, id=314, 1027.84pt x 822.07124pt>
+<images/relief/tb/tb_1x4.png, id=326, 1027.84pt x 822.07124pt>
 File: images/relief/tb/tb_1x4.png Graphic file (type png)
 <use images/relief/tb/tb_1x4.png>
 Package luatex.def Info: images/relief/tb/tb_1x4.png  used on input line 100.
@@ -2636,10 +2655,10 @@ Package luatex.def Info: images/relief/tb/tb_1x4.png  used on input line 100.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [19]
+uage eng [21]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/relief/rb1/rb1_1x4.png, id=321, 1027.84pt x 542.025pt>
+<images/relief/rb1/rb1_1x4.png, id=334, 1027.84pt x 542.025pt>
 File: images/relief/rb1/rb1_1x4.png Graphic file (type png)
 <use images/relief/rb1/rb1_1x4.png>
 Package luatex.def Info: images/relief/rb1/rb1_1x4.png  used on input line 111.
@@ -2649,7 +2668,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/relief/drone/drone_arch_corr.png, id=322, 701.62125pt x 965.6075pt>
+<images/relief/drone/drone_arch_corr.png, id=335, 701.62125pt x 965.6075pt>
 File: images/relief/drone/drone_arch_corr.png Graphic file (type png)
 <use images/relief/drone/drone_arch_corr.png>
 Package luatex.def Info: images/relief/drone/drone_arch_corr.png  used on input
@@ -2658,14 +2677,14 @@ Package luatex.def Info: images/relief/drone/drone_arch_corr.png  used on input
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [20<./images/relief/tb/tb_1x4.png><./images/relief/rb1/rb1_1x4.png>]
+uage eng [22<./images/relief/tb/tb_1x4.png><./images/relief/rb1/rb1_1x4.png>]
 luaotfload | aux : font no 109 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 42 (nil) defines no feature for script latn with lang
 uage eng
-luaotfload | aux : font no 132 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 129 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 109 (nil) defines no feature for script latn with lan
 guage eng
@@ -2673,14 +2692,14 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 42 (nil) defines no feature for script latn with lang
 uage eng
-luaotfload | aux : font no 132 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 129 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-[21<./images/relief/drone/drone_arch_corr.png>]
+[23<./images/relief/drone/drone_arch_corr.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/relief/csal_maps.png, id=339, 1003.75pt x 437.635pt>
+<images/relief/csal_maps.png, id=351, 1003.75pt x 437.635pt>
 File: images/relief/csal_maps.png Graphic file (type png)
 <use images/relief/csal_maps.png>
 Package luatex.def Info: images/relief/csal_maps.png  used on input line 141.
@@ -2689,7 +2708,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/relief/e_map.png, id=340, 1324.19719pt x 616.55344pt>
+<images/relief/e_map.png, id=352, 1324.19719pt x 616.55344pt>
 File: images/relief/e_map.png Graphic file (type png)
 <use images/relief/e_map.png>
 Package luatex.def Info: images/relief/e_map.png  used on input line 150.
@@ -2698,7 +2717,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/relief_2.png, id=343, 1003.75pt x 376.40625pt>
+<images/relief_2.png, id=355, 1003.75pt x 376.40625pt>
 File: images/relief_2.png Graphic file (type png)
 <use images/relief_2.png>
 Package luatex.def Info: images/relief_2.png  used on input line 164.
@@ -2711,13 +2730,13 @@ Overfull \hbox (75.08243pt too wide) in paragraph at lines 164--166
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [22<./images/relief/csal_maps.png><./images/relief/e_map.png>]
+uage eng [24<./images/relief/csal_maps.png><./images/relief/e_map.png>]
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [23<./images/relief_2.png>]
+uage eng [25<./images/relief_2.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [24
+uage eng [26
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2725,9 +2744,9 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [25]
+uage eng [27]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [26] (./sections/01.control/01.tex
+uage eng [28] (./sections/01.control/01.tex
 Chapter 4.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
@@ -2758,7 +2777,7 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [27
+uage eng [29
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2772,11 +2791,11 @@ uage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 Overfull \hbox (54.82034pt too wide) has occurred while \output is active
-\TU/CMUSerif(0)/m/n/10 28 \TU/CMUSerif(0)/m/sl/10 CHAP-TER 4.  RO-BUST DE-CEN-TR
+\TU/CMUSerif(0)/m/n/10 30 \TU/CMUSerif(0)/m/sl/10 CHAP-TER 4.  RO-BUST DE-CEN-TR
 AL-IZED CON-TROL OF CO-OP-ER-A-TIVE MULTI-ROBOT SYS-TEMS
  []
 
-[28] (./sections/01.control/02.tex
+[30] (./sections/01.control/02.tex
 Chapter 5.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
@@ -2841,7 +2860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--73
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [29
+uage eng [31
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2855,7 +2874,7 @@ guage eng
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [30] (./sections/01.control/03.tex
+uage eng [32] (./sections/01.control/03.tex
 Chapter 6.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
@@ -2898,12 +2917,12 @@ guage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [31
+uage eng [33
 
 ] (./sections/01.control/04.tex
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-[32
+[34
 
 ]
 Chapter 7.
@@ -2921,7 +2940,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/shellfie.png, id=441, 678.535pt x 678.535pt>
+<images/shellfie.png, id=452, 678.535pt x 678.535pt>
 File: images/shellfie.png Graphic file (type png)
 <use images/shellfie.png>
 Package luatex.def Info: images/shellfie.png  used on input line 39.
@@ -2935,7 +2954,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/shellfie_schem.png, id=442, 520.94624pt x 520.94624pt>
+<images/shellfie_schem.png, id=453, 520.94624pt x 520.94624pt>
 File: images/shellfie_schem.png Graphic file (type png)
 <use images/shellfie_schem.png>
 Package luatex.def Info: images/shellfie_schem.png  used on input line 39.
@@ -2960,9 +2979,9 @@ guage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [33<./images/shellfie.png><./images/shellfie_schem.png>]
+uage eng [35<./images/shellfie.png><./images/shellfie_schem.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [34
+uage eng [36
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2970,9 +2989,9 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [35]
+uage eng [37]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [36]
+uage eng [38]
 (./sections/02.estimation/01.tex
 Chapter 8.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2997,7 +3016,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/kf_1.png, id=466, 642.4pt x 361.35pt>
+<images/kf_1.png, id=477, 642.4pt x 361.35pt>
 File: images/kf_1.png Graphic file (type png)
 <use images/kf_1.png>
 Package luatex.def Info: images/kf_1.png  used on input line 33.
@@ -3011,21 +3030,21 @@ guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [37
+uage eng [39
 
 <./images/kf_1.png>])
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [38]
+uage eng [40]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [39
+uage eng [41
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [40] (./sections/03.computer_vision/01.tex
+uage eng [42] (./sections/03.computer_vision/01.tex
 Chapter 9.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
@@ -3049,11 +3068,11 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 42 (nil) defines no feature for script latn with lang
 uage eng
-luaotfload | aux : font no 132 (nil) defines no feature for script latn with lan
+luaotfload | aux : font no 129 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/pandora_robot.jpg, id=492, 187.902pt x 125.268pt>
+<images/pandora_robot.jpg, id=504, 187.902pt x 125.268pt>
 File: images/pandora_robot.jpg Graphic file (type jpg)
 <use images/pandora_robot.jpg>
 Package luatex.def Info: images/pandora_robot.jpg  used on input line 29.
@@ -3062,7 +3081,7 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-<images/unique_holes.png, id=493, 1292.83pt x 508.90125pt>
+<images/unique_holes.png, id=505, 1292.83pt x 508.90125pt>
 File: images/unique_holes.png Graphic file (type png)
 <use images/unique_holes.png>
 Package luatex.def Info: images/unique_holes.png  used on input line 35.
@@ -3077,7 +3096,7 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [41
+uage eng [43
 
 <./images/pandora_robot.jpg>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -3091,18 +3110,18 @@ guage eng
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [42<./images/unique_holes.png>]
+uage eng [44<./images/unique_holes.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [43
+uage eng [45
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-[44] (./sections/04.machine_learning/01.tex
+[46] (./sections/04.machine_learning/01.tex
 Chapter 10.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
@@ -3127,11 +3146,11 @@ guage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [45
+uage eng [47
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [46
+uage eng [48
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -3139,9 +3158,9 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [47]
+uage eng [49]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [48] (./sections/05.other/01.tex
+uage eng [50] (./sections/05.other/01.tex
 Chapter 11.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
@@ -3150,11 +3169,11 @@ guage eng)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [49
+uage eng [51
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [50
+uage eng [52
 
 ]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -3192,7 +3211,7 @@ uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [51]
+uage eng [53]
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -3205,7 +3224,7 @@ luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-Overfull \hbox (4.14218pt too wide) in paragraph at lines 54--54
+Overfull \hbox (4.14218pt too wide) in paragraph at lines 55--55
 []\TU/CMUSerif(0)/m/n/10 An-to-nis Dim-itriou, Anas-ta-sios Tz-itzis, Alexan-dro
 s Filotheou, Spy-ros Mega-lou, Stavroula
  []
@@ -3214,7 +3233,7 @@ luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
-Overfull \hbox (2.71768pt too wide) in paragraph at lines 54--54
+Overfull \hbox (2.71768pt too wide) in paragraph at lines 55--55
 \TU/CMUSerif(0)/m/n/10 Anas-ta-sios Tz-itzis, Stavroula Siachalou, and An-to-nis
  G. Dim-itriou. ``Lo-cal-iza-tion, Track-
  []
@@ -3224,7 +3243,7 @@ guage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage eng
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [52]
+uage eng [54]
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
 guage eng
 luaotfload | aux : font no 108 (nil) defines no feature for script latn with lan
@@ -3256,7 +3275,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the portfolio.log file.
 
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage eng [53] (./portfolio.aux)
+uage eng [55] (./portfolio.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -3269,13 +3288,13 @@ Package logreq Info: Writing requests to 'portfolio.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 57363 strings out of 476553
+ 57366 strings out of 476553
  305283,3417909 words of node,token memory allocated
- 840 words of node memory still in use:
-   10 hlist, 2 vlist, 4 rule, 6 glue, 4 kern, 1 penalty, 1 glyph, 25 attribute, 
-76 glue_spec, 25 attribute_list, 2 shape, 2 write, 10 pdf_action nodes
-   avail lists: 1:8,2:40725,3:35362,4:88,5:326,6:57,7:9681,8:67,9:1786,10:18,11:
-469
+ 851 words of node memory still in use:
+   10 hlist, 2 vlist, 4 rule, 7 glue, 4 kern, 1 penalty, 1 glyph, 26 attribute, 
+76 glue_spec, 26 attribute_list, 2 shape, 2 write, 10 pdf_action nodes
+   avail lists: 1:11,2:40725,3:35362,4:88,5:420,6:57,7:9681,8:67,9:1786,10:18,11
+:519
  77662 multiletter control sequences out of 65536+600000
  137 fonts using 23339399 bytes
  106i,18n,131p,751b,2249s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3291,10 +3310,10 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on portfolio.pdf (53 pages, 7981066 bytes).
+Output written on portfolio.pdf (55 pages, 7983916 bytes).
 
-PDF statistics: 654 PDF objects out of 1000 (max. 8388607)
- 546 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 131072)
+PDF statistics: 665 PDF objects out of 1000 (max. 8388607)
+ 555 compressed objects within 6 object streams
+ 144 named destinations out of 1000 (max. 131072)
  152 words of extra memory for PDF output out of 10000 (max. 100000000)
 

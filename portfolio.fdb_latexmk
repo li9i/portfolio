@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber portfolio"] 1750093561.90933 "portfolio.bcf" "portfolio.bbl" "portfolio" 1750097686.41029 0
+["biber portfolio"] 1750093561.90933 "portfolio.bcf" "portfolio.bbl" "portfolio" 1750190346.66817 0
   "bibliography.bib" 1749572348.72941 9504 d1d8b709d55f4656414b4c749b5775ab ""
-  "portfolio.bcf" 1750097685.83536 108596 c0b8f1472795dfe0e45450f4b34e2931 "lualatex"
+  "portfolio.bcf" 1750190346.13475 108596 c0b8f1472795dfe0e45450f4b34e2931 "lualatex"
   (generated)
   "portfolio.bbl"
   "portfolio.blg"
   (rewritten before read)
-["lualatex"] 1750097670.50468 "portfolio.tex" "portfolio.pdf" "portfolio" 1750097686.4108 0
+["lualatex"] 1750190332.13359 "portfolio.tex" "portfolio.pdf" "portfolio" 1750190346.66855 0
   "/home/member/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/cmunbi.luc" 1744883652.01727 270265 980b423a42eb38d49fadceca5c291002 ""
   "/home/member/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/cmunbx.luc" 1744883652.21528 343335 868b47637334760bb68c47bde234e6b1 ""
   "/home/member/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/cmunrm.luc" 1744883651.82525 351192 0b1b548d6624c4ad2c1da8fe3cf4709b ""
@@ -438,18 +438,18 @@
   "images/shellfie_schem.png" 1749572348.82941 24050 ac8ee75bdf4f2423884e3b3a15511a5d ""
   "images/trajectory_d_OFF_3_2.tex" 1749572348.83041 541088 c33463441bf6f0f941370fac4b2fe6e1 ""
   "images/unique_holes.png" 1749572348.83141 615484 6e323bf25c427f1686a318f9b042b189 ""
-  "portfolio.aux" 1750097685.82636 30706 d5451ef22130384fa933e8cee3baa853 "lualatex"
+  "portfolio.aux" 1750190346.12775 30812 552c9c1f8e3b633de0240d074d07cbbd "lualatex"
   "portfolio.bbl" 1750093562.96612 37136 a245ec19e3e9c658548bf8c30796d0da "biber portfolio"
-  "portfolio.mtc" 1750097674.84515 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "portfolio.mtc0" 1750097673.35112 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "portfolio.mtc1" 1750097673.48312 736 8b269ecf2dc2440f7fdb1c8f987a6c71 "lualatex"
-  "portfolio.mtc2" 1750097673.48412 740 60e96b1c827f98d24b10ba987ade24da "lualatex"
-  "portfolio.mtc3" 1750097673.48412 903 a0621165f73b5ed13f42b92440d54db8 "lualatex"
-  "portfolio.out" 1750097685.82936 4085 75819122f9899a0ac349f80daab8033c "lualatex"
-  "portfolio.run.xml" 1750097685.83636 2444 dca0d204c8479f3a20a86c5d5229aab6 "lualatex"
-  "portfolio.tex" 1750096996.90896 1231 a4e0e625fcc0efa7c2821b05fbaec0ac ""
-  "portfolio.toc" 1750097685.83636 3248 562f9e0bc4385e3255f5db6ddb589421 "lualatex"
-  "pre_document.tex" 1750094070.48095 13782 0637ce966741ec27bb353d9a21f65222 ""
+  "portfolio.mtc" 1750190336.36671 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "portfolio.mtc0" 1750190334.86571 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "portfolio.mtc1" 1750190334.99471 736 239a9dc8153c33ec22b23ed2644661ec "lualatex"
+  "portfolio.mtc2" 1750190334.99471 741 0b7a3e8e7b94639ec30cacb416828ba8 "lualatex"
+  "portfolio.mtc3" 1750190334.99471 903 dcdab9d769865fd8c0279e8756fa63fe "lualatex"
+  "portfolio.out" 1750190346.13075 4085 75819122f9899a0ac349f80daab8033c "lualatex"
+  "portfolio.run.xml" 1750190346.13575 2444 dca0d204c8479f3a20a86c5d5229aab6 "lualatex"
+  "portfolio.tex" 1750184983.97602 1248 74f5ba2e22abb9cd5bf3458276ed2877 ""
+  "portfolio.toc" 1750190346.13575 3250 fdae9a830379d80ef83f5189067d7d04 "lualatex"
+  "pre_document.tex" 1750184969.93661 13767 c82bcf311a3ccb8b24151bfebb6a16f2 ""
   "sections/01.control/01.tex" 1750007980.76683 3402 60d8e652710cbfc6490984b6e9a8e394 ""
   "sections/01.control/02.tex" 1750007989.21691 3333 aec082014a50d6c616a33a8f74c25470 ""
   "sections/01.control/03.tex" 1750007993.24795 1940 1c188b34e67a7393aac0847bf0c23a12 ""
@@ -460,7 +460,7 @@
   "sections/05.other/01.tex" 1750008020.0782 577 e87b6b6ae4c6da39b398996ad58bf488 ""
   "sections/06.research_projects/01.tex" 1750097479.65036 9178 ca959ce7a38fef74798eb460f9d159cd ""
   "sections/06.research_projects/02.tex" 1750097504.13583 9423 7f26a8b905df35fa966346644af902a6 ""
-  "sections/06.research_projects/03.tex" 1750097534.30542 3171 37a6c7976729bd0d1d0c2313a42a7245 ""
+  "sections/06.research_projects/03.tex" 1750190334.73671 5270 8818ac3fd4d60bbcefd7394118d660a8 ""
   (generated)
   "portfolio.aux"
   "portfolio.bcf"
