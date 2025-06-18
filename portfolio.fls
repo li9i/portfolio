@@ -390,6 +390,7 @@ OUTPUT portfolio.mtc8
 OUTPUT portfolio.mtc9
 OUTPUT portfolio.mtc10
 OUTPUT portfolio.mtc11
+OUTPUT portfolio.mtc12
 INPUT ./portfolio.aux
 OUTPUT portfolio.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
@@ -437,10 +438,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./sections/00.summary/summary.tex
 INPUT ./portfolio.toc
 OUTPUT portfolio.toc
 INPUT ./sections/06.research_projects/03.tex
-INPUT ./portfolio.mtc1
+INPUT ./portfolio.mtc2
 OUTPUT portfolio.mtc
 INPUT ./portfolio.mtc
 OUTPUT portfolio.mtc
@@ -462,7 +464,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
-INPUT ./portfolio.mtc1
+INPUT ./portfolio.mtc2
 INPUT ./images/robetarme/robetarme_intro.png
 INPUT ./images/robetarme/robetarme_intro.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -486,11 +488,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT ./images/robetarme/exp_setup_block.png
 INPUT ./images/robetarme/exp_setup_block.png
 INPUT ./sections/06.research_projects/02.tex
-INPUT ./portfolio.mtc2
+INPUT ./portfolio.mtc3
 OUTPUT portfolio.mtc
 INPUT ./portfolio.mtc
 OUTPUT portfolio.mtc
-INPUT ./portfolio.mtc2
+INPUT ./portfolio.mtc3
 INPUT ./images/cultureid/indy_at_museum.jpg
 INPUT ./images/cultureid/indy_at_museum.jpg
 INPUT ./images/cultureid/omg1.jpg
@@ -510,11 +512,11 @@ INPUT ./images/cultureid/indy_kids_1.jpg
 INPUT ./images/cultureid/indy_kids_2.jpg
 INPUT ./images/cultureid/indy_kids_2.jpg
 INPUT ./sections/06.research_projects/01.tex
-INPUT ./portfolio.mtc3
+INPUT ./portfolio.mtc4
 OUTPUT portfolio.mtc
 INPUT ./portfolio.mtc
 OUTPUT portfolio.mtc
-INPUT ./portfolio.mtc3
+INPUT ./portfolio.mtc4
 INPUT ./images/relief_1.png
 INPUT ./images/relief_1.png
 INPUT ./images/relief/tb/tb_1x4.png
