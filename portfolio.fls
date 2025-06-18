@@ -483,6 +483,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
+INPUT ./images/robetarme/exp_setup_block.png
+INPUT ./images/robetarme/exp_setup_block.png
 INPUT ./sections/06.research_projects/02.tex
 INPUT ./portfolio.mtc2
 OUTPUT portfolio.mtc
